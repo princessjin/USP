@@ -1,0 +1,4 @@
+     1	-rw-rw-r--. 100 george george 0  Aug  15  14:43 f1
+     2	-rw-rw-r--. 1   george george 0  Aug  15  14:43 f2
+     3	-rw-rw-r--. 1   george george 0  Aug  1   14:43 f3
+     4	-rw-rw-r--. 21  george george 0  Aug  215 14:59 out.txt

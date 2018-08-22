@@ -1,0 +1,11 @@
+total 0
+-rw-rw-r--. 1 george george 0 Aug  8 14:09 f1
+-rw-rw-r--. 1 george george 0 Aug  8 14:09 f2
+-rw-rw-r--. 1 george george 0 Aug  8 14:09 f3
+-rw-rw-r--. 1 george george 0 Aug  8 14:09 f4
+-rw-rw-r--. 1 george george 0 Aug  8 14:09 g1
+-rw-rw-r--. 1 george george 0 Aug  8 14:09 g2
+-rw-rw-r--. 1 george george 0 Aug  8 14:09 h1
+-rw-rw-r--. 1 george george 0 Aug  8 14:09 h2
+-rw-rw-r--. 1 george george 0 Aug  8 14:09 h3
+-rw-rw-r--. 1 george george 0 Aug  8 14:10 out.txt

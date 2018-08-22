@@ -1,0 +1,1005 @@
+  104  ./hello.sh 
+  105  cd
+  106  ls
+  107  cd UTS/USP/usp2
+  108  ls
+  109  cat grades.sh 
+  110  cd 
+  111  cd usp/
+  112  nano hello.sh 
+  113  ./hello.sh 
+  114  nano hello.sh 
+  115  ./hello.sh 
+  116  nano hello.sh 
+  117  ./hello.sh 
+  118  ls
+  119  ls -R
+  120  ls
+  121  pwd
+  122  touch f1 f2 f22 ff2 ff23 f3 f23 fa fb
+  123  ls
+  124  echo f*
+  125  echo f?
+  126  echo f[0-9]
+  127  echo f[a-b]
+  128  echo f{\d}
+  129  echo f\d
+  130  ls
+  131  echo *[0-9]
+  132  echo *[0-9]{2}
+  133  echo *[0-9]+
+  134  echo *[0-9]
+  135  echo f+
+  136  f.
+  137  echo f.
+  138  cp f. {mkdir usp3}
+  139  cp f. {mkdir usp3}.sh
+  140  ls
+  141  mkdir usp2
+  142  cp f. usp2/
+  143  cp f+ usp2/
+  144  cp f[0-9]+ usp2/
+  145  ls
+  146  cp f? usp2/
+  147  ls
+  148  cp f[0-9]+
+  149  cp f[0-9]+ usp2/
+  150  cp f[0-9]? usp2/
+  151  ls
+  152  ls usp2/
+  153  ls 
+  154  cp f.+
+  155  cp f.+ usp2/
+  156  cp f[0-9]+ usp2/
+  157  cp f[0-9]* usp2/
+  158  ls usp2/
+  159  ls
+  160  cp f* usp2/
+  161  ls usp2/
+  162  cd ..
+  163  ls
+  164  rm -r usp/
+  165  ls
+  166  cd
+  167  pwd
+  168  ls
+  169  mkdir USP
+  170  ls
+  171  cd USP/
+  172  pwd
+  173  mkdir usp1
+  174  cd usp1/
+  175  pwd
+  176  clear
+  177  touch f1
+  178  ls
+  179  touch f2 f3 f4
+  180  ls
+  181  touch f22 f33 f11 f44
+  182  ls
+  183  touch ff1 ff2 ff3 ff4
+  184  ls
+  185  touch fa fb fc fd
+  186  ls
+  187  mkdir sub1 sub2 sub3
+  188  ls
+  189  cp f* sub1
+  190  ls sub1
+  191  clear
+  192  cp f[0-9] sub2
+  193  ls sub2
+  194  ls
+  195  cp f? sub3
+  196  ls sub3
+  197  ls -R 
+  198  mkdir sub4
+  199  ls
+  200  clear
+  201  ls
+  202  cp [a-z][a-z][0-9] sub4
+  203  ls sub4
+  204  ls -R 
+  205  clear
+  206  ls -l
+  207  ls
+  208  clear
+  209  ls
+  210  rm f[a-z0-9][0-9]
+  211  ls
+  212  ls -l
+  213  chmod u-x,g-x f1
+  214  ls -l
+  215  clear
+  216  ls
+  217  ls -l
+  218  chmod u-w,g-w f1
+  219  ls -l f1
+  220  chmod 444 f[0-9]
+  221  ls -l
+  222  clear
+  223  cat f1
+  224  nano f1
+  225  ls
+  226  chmod 111 f[0-9]
+  227  nano f1
+  228  chmod 000 f[0-9]
+  229  ls -l
+  230  cat f1
+  231  chmod 661 f[0-9]
+  232  clear
+  233  ls -l
+  234  chmod a+rwx f[a-z]
+  235  ls -l
+  236  clear
+  237  ls -l
+  238  chmod a-rwx f[0-9]
+  239  ls -l
+  240  clear
+  241  chmod 664 f?
+  242  ls -l
+  243  clear
+  244  ls
+  245  rm f[a-z]
+  246  ls
+  247  cd
+  248  cd /
+  249  ls
+  250  ls -R ~/home/george/USP/
+  251  cd
+  252  ls
+  253  ls -R ~/USP/
+  254  clear
+  255  cd /
+  256  ls
+  257  cd ~/USP/usp1/sub4
+  258  ls
+  259  pwd
+  260  ls
+  261  cd ..
+  262  ls
+  263  chmod a-rwx f[0-9]
+  264  rm f[0-9]
+  265  ls -l
+  266  clear
+  267  chmod 664 f[0-9]
+  268  ls -l
+  269  rm f[0-9]
+  270  ls
+  271  ls -R
+  272  clear
+  273  ls -R
+  274  ls
+  275  rm sub4
+  276  rmdir sub4
+  277  rm -rf sub4
+  278  ls
+  279  clear
+  280  cd sub1
+  281  ls
+  282  echo f1
+  283  echo hello
+  284  echo George
+  285  echo f?
+  286  echo f?[0-9]
+  287  echo f[0-9][0-9]
+  288  cd ..
+  289  ls
+  290  pwd
+  291  clear
+  292  pwd
+  293  history > log.txt
+  294  cat log.txt 
+  295  clear
+  296  ls
+  297  rm -rf sub*
+  298  ls
+  299  nano hello.sh
+  300  ls
+  301  ls -l hello.sh 
+  302  chmod u+x hello.sh 
+  303  ls -l
+  304  ./hello.sh 
+  305  nano hello.sh 
+  306  ./hello.sh 
+  307  nano hello.sh 
+  308  pwd
+  309  clear
+  310  pwd
+  311  ls
+  312  ./hello.sh 
+  313  nano hello.sh 
+  314  ./hello.sh 
+  315  nano hello.sh 
+  316  ./hello.sh 
+  317  nano hello.sh 
+  318  ./hello.sh 
+  319  nano hello.sh 
+  320  processing
+  321  bluej &
+  322  processing
+  323  ./netbeans.sh 
+  324  ls
+  325  cd GitHub/
+  326  ls
+  327  cd Processing/
+  328  ls
+  329  git pull
+  330  ls
+  331  git pull
+  332  ls
+  333  git rm -rf Lab 2
+  334  git rm -rf Lab\ 2
+  335  ls
+  336  cp -R Lab2 ~/sketchbook/
+  337  cd
+  338  cd sketchbook/
+  339  ls
+  340  mv -r Lab2 Labs/
+  341  mv  Lab2 Labs/
+  342  ls
+  343  processing
+  344  bluej &
+  345  processing
+  346  ls
+  347  cd GitHub/Processing/ls
+  348  cd GitHub/Processing/
+  349  ls
+  350  git pull
+  351  cp -R Lab2 ~/sketchbook/Labs/
+  352  processing
+  353  cd
+  354  ls
+  355  cd UTS/USP/usp2
+  356  ls
+  357  cat sum.sh 
+  358  cd demo/
+  359  ls
+  360  cat avaragedays.sh 
+  361  ls
+  362  cd ..
+  363  ls
+  364  cat grades.sh 
+  365  ls
+  366  cat calc.sh 
+  367  ./calc.sh 
+  368  ls
+  369  cat calc.sh 
+  370  cat even.sh 
+  371  ls
+  372  ls
+  373  cd USP/
+  374  ls
+  375  cd ..
+  376  cd UTS/USP/
+  377  ls
+  378  cd usp2
+  379  ls
+  380  cat Scripts.odt 
+  381  ls
+  382  cat array.sh 
+  383  ls
+  384  cd demo/
+  385  ls
+  386  cat arraysum.sh 
+  387  xterm &
+  388  n
+  389  ls
+  390  cd 
+  391  cd ..
+  392  ls
+  393  cd george/
+  394  ls
+  395  echo $HISTORYSIZE
+  396  echo $HISTSIZE 
+  397  export HISTSIZE=10000
+  398  echo $HISTSIZE 
+  399  exho $HISTFILESIZE 
+  400  echo $HISTFILESIZE 
+  401  export HISTFILESIZE 
+  402  export HISTFILESIZE=10000
+  403  echo $HISTFILESIZE 
+  404  echo $HISTSIZE 
+  405  echo $HISTFILESIZE 
+  406  ls
+  407  cd USP
+  408  ls
+  409  mkdir demo
+  410  ls
+  411  cd demo
+  412  ls
+  413  touch f1 f2 f3
+  414  ls -R ~/UTS/USP/
+  415  cp ~/UTS/USP/usp2/cities.txt ~/USP/demo/
+  416  ls
+  417  wc 
+  418  wc *
+  419  wc -w *
+  420  wc -l *
+  421  wc -c *
+  422  ls
+  423  touch g1 g2 g3
+  424  ls
+  425  sort *
+  426  ls
+  427  cat cities.txt 
+  428  ls
+  429  man sort 
+  430  ls
+  431  find -filename cities.txt 
+  432  find -file cities.txt 
+  433  find -name cities.txt 
+  434  find -name cities.txt ~/
+  435  find -name -R cities.txt ~/
+  436  find -name -R  ~/ cities.txt
+  437  find -name -R   cities.txt
+  438  find -name -R  cities.txt
+  439  cd
+  440  find -name -R  cities.txt
+  441  find -name cities.txt
+  442  ls
+  443  cd USP/
+  444  ls
+  445  cd demo/
+  446  ls
+  447  ls -l 
+  448  ls -l | head -4
+  449  ls -l | head -n | tail -1
+  450  ls -l | head -n+2 | tail -1
+  451  ls -l | head -n+2
+  452  ls -l | tail -n+2
+  453  ls -l | tail -n+3
+  454  ls
+  455  ls -l | tail -n+3 | n
+  456  ls -l | tail -n+3 | wc
+  457  ls -l | tail -n+3 | ln
+  458  ls -l | tail -n+3 | wc -n
+  459  nano arrayout.sh
+  460  chmod u+x arrayout.sh 
+  461  ./arrayout.sh 
+  462  nano arrayout.sh
+  463  ./arrayout.sh 
+  464  nano arrayout.sh
+  465  ./arrayout.sh 
+  466  nano arrayout.sh
+  467  ./arrayout.sh 
+  468  nano arrayout.sh
+  469  ./arrayout.sh 
+  470  nano arrayout.sh
+  471  ./arrayout.sh 
+  472  nano arrayout.sh
+  473  ./arrayout.sh 
+  474  nano arrayout.sh
+  475  ./arrayout.sh 
+  476  nano arrayout.sh
+  477  ./arrayout.sh 
+  478  nano arrayout.sh
+  479  ./arrayout.sh 
+  480  nano arrayout.sh
+  481  ./arrayout.sh 
+  482  nano arrayout.sh
+  483  ./arrayout.sh 
+  484  nano averagedays.sh
+  485  chmod u+x averagedays.sh 
+  486  ./averagedays.sh 
+  487  ls
+  488  nano averagedays.sh 
+  489  ./averagedays.sh 
+  490  nano averagedays.sh 
+  491  ./averagedays.sh 
+  492  nano averagedays.sh 
+  493  ./averagedays.sh 
+  494  nano averagedays.sh 
+  495  ./averagedays.sh 
+  496  nano averagedays.sh 
+  497  ./averagedays.sh 
+  498  nano averagedays.sh 
+  499  ./averagedays.sh 
+  500  nano averagedays.sh 
+  501  ./averagedays.sh 
+  502  nano averagedays.sh 
+  503  ./averagedays.sh 
+  504  nano averagedays.sh 
+  505  ./averagedays.sh 
+  506  nano averagedays.sh 
+  507  ./averagedays.sh 
+  508  nano averagedays.sh 
+  509  ./averagedays.sh 
+  510  nano averagedays.sh 
+  511  ./averagedays.sh 
+  512  nano averagedays.sh 
+  513  ls
+  514  nano averagedays.sh 
+  515  ./averagedays.sh 
+  516  ls
+  517  cd USP
+  518  ls
+  519  cd ..
+  520  ls
+  521  clear
+  522  ls
+  523  clear
+  524  ls
+  525  cd USP/
+  526  ls
+  527  mkdir usp2
+  528  ls
+  529  cd usp2
+  530  pwd
+  531  clear
+  532  touch f1 f2 f3 f4 g1 g2 h1 h2 h3
+  533  ls
+  534  ls -l
+  535  ls -l > out.txt
+  536  ls
+  537  cat out.txt 
+  538  clear
+  539  ls
+  540  wc out.txt 
+  541  wc * out.txt 
+  542  wc *
+  543  wc -l *
+  544  clear
+  545  wc -w *
+  546  wc -c *
+  547  wc *
+  548  clear
+  549  ls
+  550  rm f?
+  551  ls
+  552  rm g[0-9]
+  553  ls
+  554  rm h*
+  555  ls
+  556  nano array.sh
+  557  ls -l
+  558  chmod u+x array.sh 
+  559  ls
+  560  clear
+  561  ./array.sh 
+  562  nano array.sh
+  563  ./array.sh 
+  564  nano array.sh 
+  565  ./array.sh 
+  566  nano array.sh 
+  567  ./array.sh 
+  568  clear
+  569  nano array.sh 
+  570  ./array.sh 
+  571  nano array.sh 
+  572  ./array.sh 
+  573  nano array.sh 
+  574  ./array.sh 
+  575  nano array.sh 
+  576  ./array.sh 
+  577  nano array.sh 
+  578  clear
+  579  ./array.sh 
+  580  nano array.sh 
+  581  ./array.sh 
+  582  nano array.sh 
+  583  ./array.sh 
+  584  nano array.sh 
+  585  ./array.sh 
+  586  nano array.sh 
+  587  ./array.sh 
+  588  nano array.sh 
+  589  ./array.sh 
+  590  nano array.sh 
+  591  ./array.sh 
+  592  nano array.sh 
+  593  ./array.sh 
+  594  nano array.sh 
+  595  ./array.sh 
+  596  nano array.sh 
+  597  ./array.sh 
+  598  nano array.sh 
+  599  ./array.sh 
+  600  nano array.sh 
+  601  clear
+  602  ls
+  603  nano sum.sh
+  604  chmod u+x sum.sh 
+  605  ./sum.sh 
+  606  nano sum.sh
+  607  ./sum.sh 
+  608  nano sum.sh
+  609  ./sum.sh 
+  610  nano sum.sh
+  611  clear
+  612  ./sum.sh 
+  613  nano sum.sh
+  614  ./sum.sh 
+  615  nano sum.sh
+  616  ./sum.sh 
+  617  nano sum.sh
+  618  clear
+  619  nano grades.sh
+  620  chmod u+x grades.sh 
+  621  ./grades.sh 
+  622  nano grades.sh
+  623  ./grades.sh 
+  624  nano grades.sh
+  625  ./grades.sh 
+  626  nano grades.sh
+  627  ./grades.sh 
+  628  nano grades.sh
+  629  ./grades.sh 
+  630  nano grades.sh
+  631  ./grades.sh 
+  632  nano grades.sh
+  633  ./grades.sh 
+  634  nano grades.sh
+  635  ./grades.sh 
+  636  nano grades.sh
+  637  ls
+  638  clear
+  639  num=5
+  640  echo $num
+  641  unset num
+  642  echo $num
+  643  HISTSIZE=10000
+  644  HISTFILESIZE=10000
+  645  export HISTSIZE
+  646  export HISTFILESIZE
+  647  echo $HISTSIZE
+  648  hitory > 
+  649  history > log.txt
+  650  ls
+  651  cat log.txt 
+  652  bluej &
+  653  ls
+  654  cd USP
+  655  ls
+  656  ls -R usp
+  657  ls -R 
+  658  ls
+  659  cd usp
+  660  cd usp2
+  661  ls
+  662  cd ..
+  663  ls
+  664  de demo/
+  665  ls
+  666  cd demo/
+  667  ls
+  668  rm f?
+  669  rm g?
+  670  ls
+  671  cd ..
+  672  ls
+  673  cd usp2
+  674  ls
+  675  cd ..
+  676  ls
+  677  rm demo/
+  678  rm -rf demo/
+  679  ls
+  680  cd
+  681  ls
+  682  cd Downloads/
+  683  ls
+  684  rm *
+  685  ls
+  686  cd 
+  687  ls
+  688  pwd
+  689  cd Documents/
+  690  ls
+  691  cd ..
+  692  ls
+  693  ./netbeans.sh 
+  694  ls
+  695  cd Downloads/
+  696  ls
+  697  mv Demo-lec3-session-Javabeans.zip ~/NetBeansProjects/ZIP/
+  698  processing
+  699  cd GitHub/
+  700  cd Processing/
+  701  git pull
+  702  ls
+  703  cp -R Lab3 ~/sketchbook/Labs/
+  704  cd
+  705  cd sketchbook/
+  706  cd Labs/
+  707  ls
+  708  cd
+  709  ls
+  710  cd sketchbook/Labs/
+  711  ls
+  712  rm -rf *
+  713  ls
+  714  cd
+  715  ls
+  716  cd GitHub/
+  717  ls
+  718  cd Processing/
+  719  ls
+  720  rm -rf *
+  721  ls
+  722  git pull
+  723  ls
+  724  cd Lab2
+  725  ls
+  726  cd ..
+  727  ls
+  728  cd Lab3
+  729  ls
+  730  cd ..
+  731  ls -R
+  732  ls Lab2
+  733  cd ..
+  734  ls
+  735  cd Processing/
+  736  ls
+  737  git pull
+  738  git clone https://github.com/Georges034302/Processing.git
+  739  ls
+  740  rm -rf Processing/
+  741  ls
+  742  cd ..
+  743  ls
+  744  rm -rf Processing/
+  745  git clone https://github.com/Georges034302/Processing.git
+  746  ls
+  747  cd Processing/
+  748  ls
+  749  cp -R * ~/sketchbook/Labs/
+  750  cd
+  751  ls
+  752  cd sketchbook/Labs/
+  753  ls
+  754  bluej &
+  755  cd ~/NetBeansProjects/Demo-lec4-XML\ and\ JAXB/
+  756  cd build/web/WEB-INF/
+  757  ls
+  758  cat students.xml 
+  759  cd..
+  760  ls
+  761  cd ..
+  762  ls
+  763  cd WEB-INF
+  764  ls
+  765  cat students.xml 
+  766  processing
+  767  cd 
+  768  ls
+  769  cd Downloads/
+  770  ls
+  771  mv drive-download-20180813T065023Z-001.zip lectures.zip
+  772  ls
+  773  rm -rf Demo-lec4-XML\ and\ JAXB.zip 
+  774  rm -rf Demo-lec4-XML\ and\ JAXB\(3\).zip 
+  775  ls
+  776  processing
+  777  ls
+  778  cd UTS
+  779  ls
+  780  mkdir
+  781  mkdir IM
+  782  cd
+  783  cd Downloads/
+  784  ls
+  785  mv Leap_Motion_Setup_Linux_2.3.1 ~/UTS/IM/
+  786  cd
+  787  ls
+  788  cd UTS/IM/
+  789  ls
+  790  cd Leap_Motion_Setup_Linux_2.3.1/
+  791  ls
+  792  cd Leap_Motion_Installer_Packages_release_public_linux/
+  793  ls
+  794  sudo dpkg --install Leap-*-x64.deb
+  795  cd
+  796  ls
+  797  cd Downloads/
+  798  ls
+  799  dnf install dpkg
+  800  sudo install dpkg
+  801  sudo install dpkg-1.18.24-3.fc27.x86_64.rpm 
+  802  sudo dnf install dpkg
+  803  ls
+  804  cd
+  805  cd UTS/IM/
+  806  ls
+  807  cd Leap_Motion_Setup_Linux_2.3.1/
+  808  ls
+  809  cd Leap_Motion_Installer_Packages_release_public_linux/
+  810  ls
+  811  sudo dpkg Leap-*-x64.deb
+  812  sudo dpkg --install Leap-*-x64.deb
+  813  apt-get install libc6
+  814  apt-cache show libc6
+  815  apt-get libc6
+  816  apt-get install libc6
+  817  cd
+  818  yum install glibc-devel
+  819  sudo yum install glibc-devel
+  820  sudo yum install glibc-devel.i686
+  821  cd ~/UTS/IM/Leap_Motion_Setup_Linux_2.3.1/Leap_Motion_Installer_Packages_release_public_linux/
+  822  ls
+  823  sudo dpkg --install Leap-*-x64.deb
+  824  ls
+  825  sudo dpkg --install Leap-*-x86.deb
+  826  sudo dpkg --install Leap-*-x64.deb
+  827  sudo apt-get install libc6.i386 libX11-6:i386 libgl1:i386 libglu1:i386
+  828  sudo apt-get update
+  829  sudo apt-get install libc6:i386 libX11-6:i386 libgl1:i386 libglu1:i386 libxi6:i386 libxrender1:i386 libsm6:i386 libfontconfig:i386 sni-qt:i386 libfreetype6:i386 libxinerama1:i386 libasound2:i386
+  830  sudo apt-get update
+  831  sudo apt-get libc6:i386
+  832  sudo apt-get install libc6:i386
+  833  sudo apt-get install libc6_2.24-11+deb9u3_i386.deb
+  834  cd 
+  835  cd Downloads/
+  836  ls
+  837  sudo dkpg --install libc6_2.24-11+deb9u3_i386.deb 
+  838  sudo dpkg --install libc6_2.24-11+deb9u3_i386.deb 
+  839  ls
+  840  rm libc6_2.24-11+deb9u3_i386.deb 
+  841  ls
+  842  sudo dpkg --install libc6_2.24-11+deb9u3_amd64.deb 
+  843  sudo apt-get update
+  844  sudo apt-get install libc6
+  845  ls
+  846  rm *
+  847  ls
+  848  yum install glibc-devel
+  849  sudo yum install glibc-devel
+  850  sudo yum install glibc-devel.i386
+  851  uname -a
+  852  uname -m
+  853  uname 
+  854  uname -k
+  855  uname -l
+  856  sudo apt-get install glibc-2.27-30fc28.x86_64.rpm
+  857  ls
+  858  sudo apt install glibc-2.27-8.fc28.x86_64.rpm 
+  859  sudo install glibc-2.27-8.fc28.x86_64.rpm 
+  860  sudo apt-get install glibc-2.27-8.fc28.x86_64.rpm 
+  861  ls
+  862  rpm -Uvh glibc-2.27-8.fc28.x86_64.rpm 
+  863  rpm -Uvh glibc-common-2.27-8.fc28.x86_64.rpm 
+  864  ls
+  865  sudo apt-get glibc-common
+  866  sudo apt-get glibc-2.27-30.fc28.rpm
+  867  ls
+  868  rpm -Uzh glibc-all-langpacks-2.27-8.fc28.x86_64.rpm 
+  869  rpm -Uvh glibc-all-langpacks-2.27-8.fc28.x86_64.rpm 
+  870  rpm -Uvh glibc-common-2.27-8.fc28.x86_64.rpm 
+  871  rpm -Uvh glibc-2.27-8.fc28.x86_64.rpm 
+  872  sudo rpm -Uvh glibc-2.27-8.fc28.x86_64.rpm 
+  873  pacman -Sy glibc-2.28-1-x86_64.pkg.tar.xz 
+  874  sudo apt-get install pacman
+  875  sudo apt-get update
+  876  sudo apt-get update pacman
+  877  pacman -Sy glibc-2.28-1-x86_64.pkg.tar.xz 
+  878  ls
+  879  rm *
+  880  ls
+  881  cd
+  882  ls
+  883  cd UTS/IM/
+  884  ls
+  885  cd Leap_Motion_Setup_Linux_2.3.1/
+  886  ls
+  887  cd L
+  888  cd Leap_Motion_Installer_Packages_release_public_linux/
+  889  ls
+  890  sudo -dpkg --install LeapControlPanel 
+  891  sudo -dpkg --install LeapControlPanel Leap-2.3.1+31549-x*.deb
+  892  sudo -dpkg --install Leap-2.3.1+31549-x*.deb
+  893  sudo dpkg --install LeapControlPanel Leap-2.3.1+31549-x*.deb
+  894  sudo dpkg --install  Leap-2.3.1+31549-x*.deb
+  895  sudo apt-get update
+  896  cd
+  897  sudo yum install rpm-build rpm-build-libs
+  898  cd GitHub/
+  899  ls
+  900  git clone git@github.com:atejeda/leap-fedora-rpm.git
+  901  ls
+  902  cd UTS
+  903  ls
+  904  cd USP
+  905  ls
+  906  cd usp3
+  907  ls
+  908  cd ..
+  909  cd
+  910  cd USP
+  911  ls
+  912  mkdir usp3
+  913  cd usp3
+  914  ls
+  915  touch f1 f2 f3 f4
+  916  ls -l > f.txt
+  917  ls
+  918  cat f.txt
+  919  ls -l > a.txt
+  920  ls
+  921  ls -l 
+  922  cat a.txt 
+  923  ls
+  924  cd 
+  925  cd USP/usp3
+  926  cd ..
+  927  ls
+  928  ls -R > d.txt
+  929  mv d.txt usp3
+  930  cd usp3
+  931  ls
+  932  cat d.txt 
+  933  ls -l
+  934  rm f1 f2
+  935  ls
+  936  touch m1 m2 m3
+  937  ls
+  938  ls -l > g.txt
+  939  ls
+  940  ls -l
+  941  ls -l | wc
+  942  cat a.txt | wc
+  943  cat *
+  944  cat * | less
+  945  cat * | wc
+  946  cat * | nl
+  947  ls -l | nl
+  948  ls -l | nl > a.txt 
+  949  cat a.txt 
+  950  cat a.txt | tail -n+2
+  951  cut -d " " -f 2 a.txt 
+  952  cut -d " " -f 2-6 a.txt 
+  953  cut -d " " -f 2,6 a.txt 
+  954  cut -d " " -f 6 a.txt 
+  955  cut -d " " -f 9 a.txt 
+  956  cut -d " " -f 10 a.txt 
+  957  cut -d " " -f 9 a.txt 
+  958  cut -d " " -f 11 a.txt 
+  959  cut -d " " -f 10-12 a.txt 
+  960  ls -l | ln | tail -n+2
+  961  ls -l | nl | tail -n+2
+  962  ls -l | nl | tail -n+2 > a.txt 
+  963  cut -d " " -f 11 a.txt 
+  964  cut -d " " -f 12 a.txt 
+  965  cut -d " " -f 9-12 a.txt 
+  966  cut -d " " -c 9-12 a.txt 
+  967  cut -d " " -f 9-12 a.txt 
+  968  awk '{print $1 " " $4}' a.txt 
+  969  awk '{print $1 " " $4 " " $9}' a.txt 
+  970  awk '{print $1 " " $4 " " $10}' a.txt 
+  971  awk '{print $1 " " $4 " " $9}' a.txt 
+  972  awk '{print $1 " " $4 " " $8}' a.txt 
+  973  awk '{print $1 " " $4 " " $7}' a.txt 
+  974  awk '{print $1 " " $4 " " $6}' a.txt 
+  975  awk '{printf "%2d %10s %4s ",$1, $4, $6}' a.txt 
+  976  awk '{print $1 " " $4 " " $10}' a.txt 
+  977  awk '{printf "%2d %10s %4s \n",$1, $4, $6}' a.txt 
+  978  awk '{printf "%2d %10s %-4s \n",$1, $4, $6}' a.txt 
+  979  ls
+  980  nano calc.sh
+  981  chmod u+x calc.sh 
+  982  ./calc.sh 1 + 2
+  983  nano calc.sh
+  984  ./calc.sh 1 + 2
+  985  ./calc.sh 1 / 2
+  986  ./calc.sh 1 * 3
+  987  ./calc.sh 2 * 7
+  988  ./calc.sh 2 - 7
+  989  ./calc.sh 20 / 7
+  990  ./calc.sh 20 * 7
+  991  ./calc.sh 20 \* 7
+  992  ./calc.sh 2 \* 7
+  993  processing
+  994  ls
+  995  cd USP
+  996  ls
+  997  cd usp3
+  998  ls
+  999  cat calc.sh 
+ 1000  exit
+ 1001  ls
+ 1002  cd USP
+ 1003  ls
+ 1004  rm -r usp3
+ 1005  ls
+ 1006  mkdir usp3
+ 1007  cd usp3
+ 1008  pwd
+ 1009  touch f1 f2 f3
+ 1010  ls -l
+ 1011  clear
+ 1012  ls -l
+ 1013  ls -l | tail -n+2
+ 1014  ls -l | tail -n+2 | wc
+ 1015  ls -l | tail -n+2 | ln
+ 1016  ls -l | tail -n+2 | nl
+ 1017  ls -l | tail -n+2 | nl > out.txt
+ 1018  cat out.txt 
+ 1019  touch g1 g2
+ 1020  clear
+ 1021  ls -l | tail -n+2 | nl >> out.txt 
+ 1022  cat out.txt 
+ 1023  cut -d " " -f 3 out.txt 
+ 1024  cut -d " " -f 5 out.txt 
+ 1025  cut -d " " -f 8 out.txt 
+ 1026  cut -d " " -f 10 out.txt 
+ 1027  cut -d " " -f 7-12 out.txt 
+ 1028  cut -d " " -f 7,12 out.txt 
+ 1029  clear
+ 1030  ls
+ 1031  rm out.txt 
+ 1032  rm g?
+ 1033  ls
+ 1034  ls -l | tail -n+2 | nl > out.txt
+ 1035  cat out.txt 
+ 1036  nano out.txt 
+ 1037  cat out.txt 
+ 1038  clear
+ 1039  cut -d " " -f 6-10 out.txt 
+ 1040  cat out.txt 
+ 1041  awk '{print $5 " " $8 " " $11 " " $12}' out.txt 
+ 1042  clear
+ 1043  ls -l | tail -n+2 | nl > out.txt
+ 1044  cat out.txt 
+ 1045  nano out.txt 
+ 1046  cut -d " " -f 6-10 out.txt 
+ 1047  cat out.txt 
+ 1048  clear
+ 1049  cat out.txt 
+ 1050  cut -d " " -f 6-12 out.txt 
+ 1051  awk '{print $6 " " $8 " " $10 " " $12}' out.txt 
+ 1052  awk '{print $6 " " $8 " " $11 " " $12}' out.txt 
+ 1053  awk '{print $6 " " $8 " " $10 " " $12}' out.txt 
+ 1054  awk '{printf"%2d %4s %2s %5s \n" $6, $8, $10, $12}' out.txt 
+ 1055  awk '{printf"%2d %4s %2s %5s \n" $6, $8, $10, $11}' out.txt 
+ 1056  awk '{printf"%2d %4s %2s %5s \n" $6, $8}' out.txt 
+ 1057  awk '{printf"%2d %4s \n" $6, $8}' out.txt 
+ 1058  ls
+ 1059  clear
+ 1060  awk '{printf " %2d %4s \n" $6, $8 }' out.txt 
+ 1061  awk '{printf " %2S %4s \n" $6, $8 }' out.txt 
+ 1062  awk '{printf " %4S %4s \n" $6, $8 }' out.txt 
+ 1063  awk '{printf "%4S %4s \n" $6, $8 }' out.txt 
+ 1064  awk '{printf "%4S, %4s \n" $6, $8 }' out.txt 
+ 1065  awk '{printf "%4S, %4s \n" $9, $8 }' out.txt 
+ 1066  awk '{printf "%4s, %4s \n" $9, $8 }' out.txt 
+ 1067  awk '{printf "%4s, %4s \n" $9 $8 }' out.txt 
+ 1068  awk '{printf "%4s, %4s\n" $9 $8 }' out.txt 
+ 1069  awk '{printf "%4s, %4s\n", $9 $8 }' out.txt 
+ 1070  awk '{printf "%4s, %4s\n", $9, $8 }' out.txt 
+ 1071  awk '{printf "%4s, %4s\n", $6, $12 }' out.txt 
+ 1072  awk '{printf "%4s, %4s\n", $6, $11 }' out.txt 
+ 1073  awk '{printf "%4s, %4s\n", $6, $10 }' out.txt 
+ 1074  awk '{printf "%4s, %4s\n", $8, $10 }' out.txt 
+ 1075  awk '{printf "%4s %4s\n", $8, $10 }' out.txt 
+ 1076  awk '{printf "%-4s %4s\n", $8, $10 }' out.txt 
+ 1077  awk '{printf "%-4s %-4s\n", $8, $10 }' out.txt 
+ 1078  awk '{printf "%4s %-4s\n", $8, $10 }' out.txt 
+ 1079  cut -d " " -f 8,10 out.txt 
+ 1080  clear
+ 1081  nano calc.sh
+ 1082  chmod u+x calc.sh 
+ 1083  ./calc.sh 2 + 3
+ 1084  nano calc.sh
+ 1085  ./calc.sh 2 + 3
+ 1086  ./calc.sh 4 - 3
+ 1087  ./calc.sh 4 / 3
+ 1088  ./calc.sh 4 * 3
+ 1089  ./calc.sh 2 * 3
+ 1090  ./calc.sh 2 \* 3
+ 1091  clear
+ 1092  num=4
+ 1093  echo $num
+ 1094  echo "$num"
+ 1095  echo '$num'
+ 1096  echo \$num
+ 1097  echo \'$num'
+ 1098  echo \"$num"
+ 1099  echo "\$num"
+ 1100  echo '\$num'
+ 1101  nano calc.sh 
+ 1102  clear
+ 1103  HISTSIZE=10000
+ 1104  HISTFILESIZE=10000
+ 1105  export HISTSIZE
+ 1106  export HISTFILESIZE
+ 1107  echo $HISTSIZE
+ 1108  history > log.txt
