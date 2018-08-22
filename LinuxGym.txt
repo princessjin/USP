@@ -3,12 +3,7 @@
 
 Go To:    http://start.it.uts.edu.au/reset   
 
-
-Use your:
-Student ID number and Password
-
-
-
+Use your: Student ID number and Password
 
 Click OK
 
@@ -16,82 +11,27 @@ Click OK
 From this you will get: FEIT login name
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 b) Run LinuxGym   
 
 
-From your PC: 
-
-
-Applications ---> Programming 
-
-
-
-
+From your PC: Applications ---> Programming 
 
 
 c) Use the IP address from LinuxGym into your web browser.
 
 
-
-
 For example: http://192.168.3.128
-
-
-
-
-
-
-
-
-
 
 
 d) Login to LinuxGym 
  
 Use: Web Browser 
 
-
-
-
 Username: Your FEIT login name
-
 
 Password: Student number
 
-
 Select the test on the LinuxGym website
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 e)In your Bash terminal type:
@@ -101,7 +41,6 @@ ssh student@192.168.3.128
 
 
 use your:  student number as password
-
 
 
 f) Once the connection with LinuxGym is established type 'yes'
