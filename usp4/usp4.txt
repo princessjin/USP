@@ -1,0 +1,21 @@
+#Wednesday 23/Aug/2017
+#Welcome to USP4
+#Tutor: George
+
+Tutorial 4: RegEx and grep
+Grep filtering command of unix usp04
+Unix, Perl, Java etc... use regex
+This tutorial will begin with LinuxGym demo
+The tutor will explain LinuxGym steps
+Week 6: Unix programming test01
+Week 7: Unix multiple choices test01
+
+#File usp4.txt details
+Log file: usp4 size 256
+Owner: Tutor 
+Tutorial room: 403
+Building 11
+
+#Thank you for attending tutorial 04
+
+
