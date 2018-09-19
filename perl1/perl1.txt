@@ -1,0 +1,1000 @@
+   60  ls
+   61  mkdir usp4
+   62  ls
+   63  clear
+   64  cd 
+   65  ls
+   66  cd UTs
+   67  CD UTS/USP/
+   68  ls
+   69  cd UTS/USP/
+   70  ls
+   71  cd usp4
+   72  ls
+   73  cat usp4.txt 
+   74  ls
+   75  cat food.txt 
+   76  ls
+   77  ls -2 cities.txt 
+   78  cat -2 cities.txt 
+   79  ls -2
+   80  clear
+   81  ls
+   82  cp usp4.txt ~/USP/usp4
+   83  cd
+   84  cd ~/USP/usp4
+   85  ls
+   86  cat usp4.txt 
+   87  nano usp4.txt 
+   88  grep '[0-2]{2}$' usp4.txt 
+   89  grep '[0-2]*$' usp4.txt 
+   90  grep '[0-2]+$' usp4.txt 
+   91  grep '[0-9]+$' usp4.txt 
+   92  grep '[0-9]+' usp4.txt 
+   93  grep '[0-9]+? usp4.txt 
+   94  grep '[0-9]?' usp4.txt 
+   95  grep [0-9] usp4.txt 
+   96  grep [0-9]{2} usp4.txt 
+   97  grep [0-9]+ usp4.txt 
+   98  grep [0-9] usp4.txt 
+   99  clear
+  100  cd USP/usp4
+  101  ls
+  102  grep java usp4.txt 
+  103  grep -i java usp4.txt 
+  104  grep -i 'java' usp4.txt 
+  105  grep -i 'perl' usp4.txt 
+  106  grep -iE 'perl' usp4.txt 
+  107  grep -iE 'unix' usp4.txt 
+  108  grep -i 'unix' usp4.txt 
+  109  clear
+  110  grep -i 'unix' usp4.txt 
+  111  grep  'unix' usp4.txt 
+  112  grep  -E 'unix|perl' usp4.txt 
+  113  grep  -Ei 'unix|perl' usp4.txt 
+  114  grep  -Ei '[0-9]' usp4.txt 
+  115  grep  -Ei '[0-9]{2}' usp4.txt 
+  116  grep  -Ei '[0-9]{2,3}' usp4.txt 
+  117  grep  -Ei '[0-9]{3}' usp4.txt 
+  118  grep  -Ei '\d{3}' usp4.txt 
+  119  grep  -EP '\d{3}' usp4.txt 
+  120  grep  -P '\d{3}' usp4.txt 
+  121  grep  -P #\d{3}# usp4.txt 
+  122  grep  -P '#\d{3}#' usp4.txt 
+  123  grep  -P '\b\d{3}\b' usp4.txt 
+  124  grep  -P '\b\d{2}\b' usp4.txt 
+  125  grep  -P '\b\d\b' usp4.txt 
+  126  exit
+  127  cd Downloads/
+  128  ls
+  129  cd ~/NetBeansProjects/
+  130  cd ZIP/
+  131  ls
+  132  rm Demo-lec6-XSLT.zip 
+  133  cd ..
+  134  ls
+  135  rm -rf Demo-Lec5/
+  136  rm -rf Demo-Lec4
+  137  rm -rf Demo-Lec2
+  138  rm -rf Demo-Lec3
+  139  rm -rf Demo-Lec9
+  140  ls
+  141  rm -rf Demo-Lec2
+  142  ls
+  143  rm -rf Demo-lec2
+  144  rm -rf Demo-lec3
+  145  rm -rf Demo-lec4
+  146  rm -rf Demo-lec9
+  147  ls
+  148  cd ~/Downloads/
+  149  ls
+  150  mv Demo-lec6-XSLT.zip ~/NetBeansProjects/ZIP/
+  151  cd ~/NetBeansProjects/ZIP/
+  152  ls
+  153  rm -rf Demo-lec2.zip 
+  154  rm -rf Demo-lec3.zip 
+  155  ls
+  156  rm -rf Demo-lec9.zip 
+  157  ls
+  158  cd ~/NetBeansProjects/Demo-lec6-XSLT/web/xsl/
+  159  pwd
+  160  ls
+  161  cd GitHub/
+  162  git clone https://github.com/Georges034302/lecture_demo.git
+  163  ls
+  164  cd lecture_demo/
+  165  ls
+  166  git add --all
+  167  git commit -m "XSLT v1.0"
+  168  git push
+  169  git add --all
+  170  git commit -m "XSLT v1.0"
+  171  cd sketchbook/
+  172  ls
+  173  cd libraries/
+  174  ls
+  175  processing
+  176  cd
+  177  cd GitHub/
+  178  ls
+  179  cd Processing/
+  180  ls
+  181  git pull
+  182  ls
+  183  cp -R Lab5 ~/sketchbook/Labs/
+  184  cd ~/sketchbook/Labs/Lab5
+  185  ls
+  186  rm Animation.pptx 
+  187  processing
+  188  ls
+  189  cd ..
+  190  ls
+  191  cd ..
+  192  ls
+  193  cd libraries/
+  194  ls
+  195  git  clone https://github.com/01010101/GifAnimation.git
+  196  ls
+  197  cd GifAnimation/
+  198  ls
+  199  cd ..
+  200  ls
+  201  cd ..
+  202  ls
+  203  cd Labs/
+  204  cd Lab5
+  205  processing
+  206  cd
+  207  cd GitHub/
+  208  ls
+  209  rm -rf lecture_demo/
+  210  ls
+  211  cd AppProg/
+  212  git pull
+  213  ls -a
+  214  rm -rf
+  215  ls
+  216  rm -rf *
+  217  ls
+  218  git clone https://github.com/Georges034302/AppProg.git
+  219  ls
+  220  rm -rf *
+  221  ls
+  222  cd ..
+  223  git clone https://github.com/Georges034302/AppProg.git
+  224  ls
+  225  cd AppProg/
+  226  ls
+  227  cd ..
+  228  git clone https://github.com/Georges034302/WSD.git
+  229  ls
+  230  cd Processing/
+  231  ls
+  232  git pull
+  233  ls
+  234  cp -R Lab5 ~/sketchbook/Labs/
+  235  processing
+  236  ls
+  237  cd GitHub/
+  238  ls
+  239  cd Processing/
+  240  ls
+  241  git pull
+  242  cd 
+  243  ls
+  244  exit
+  245  processing
+  246  ls
+  247  cd GitHub/
+  248  cd Processing/
+  249  ls
+  250  git add -all
+  251  git add --all
+  252  git commit -m "Lab 5 v3.0"
+  253  git push
+  254  cd GitHub/
+  255  cd Processing/
+  256  ls
+  257  git add Lab5/
+  258  git commit -m "Lab5 v4.0"
+  259  git push
+  260  ls
+  261  cd USP/
+  262  ls
+  263  cd usp4
+  264  ls
+  265  cat usp4.txt 
+  266  ls
+  267  nano usp4.txt 
+  268  ls
+  269  cp usp4.txt ~/UTS/USP/usp4
+  270  ls
+  271  cd
+  272  cd GitHub/
+  273  ls
+  274  mkdir USP
+  275  cd USP/
+  276  ls
+  277  echo "# USP" >> README.md
+  278  git init
+  279  git add README.md
+  280  git commit -m "first commit"
+  281  git remote add origin https://github.com/Georges034302/USP.git
+  282  git push -u origin master
+  283  ls
+  284  git pull
+  285  pwd
+  286  cd ..
+  287  ls
+  288  cd USP/
+  289  cd UTS/USP
+  290  cd ~/UTS/USP
+  291  ls
+  292  cp -R usp4 ~/GitHub/USP/
+  293  cd ~/GitHub/USP/
+  294  git add --all
+  295  git commit -m "usp4 text sample"
+  296  ls
+  297  pwdd
+  298  pwd
+  299  ls
+  300  cd usp4/
+  301  ls
+  302  rm *.sh
+  303  ls
+  304  rm animals.txt 
+  305  rm food.txt 
+  306  rm cities.txt 
+  307  ls
+  308  cd ..
+  309  git add --all
+  310  git commit -m "usp4 text sample"
+  311  git push
+  312  cd ~/USP/usp4
+  313  ls
+  314  clear
+  315  grep tutorial usp4.txt 
+  316  grep 'tutorial' usp4.txt 
+  317  grep 'tutor' usp4.txt 
+  318  grep -i 'tutor' usp4.txt 
+  319  grep -i '\btutor\b' usp4.txt 
+  320  grep -i '\btutorial\b' usp4.txt 
+  321  grep -w 'tutorial' usp4.txt 
+  322  grep -wi 'tutorial' usp4.txt 
+  323  grep -wi 'tutor' usp4.txt 
+  324  grep -wic 'tutor' usp4.txt 
+  325  grep -win 'tutor' usp4.txt 
+  326  grep  '[0-9]' usp4.txt 
+  327  grep  '[0-9]{2}' usp4.txt 
+  328  grep  -E '[0-9]{2}' usp4.txt 
+  329  grep  -E '[0-9]{2}\b' usp4.txt 
+  330  grep  -E '\b[0-9]{2}\b' usp4.txt 
+  331  grep  -E '\b[0-9]{2,4}\b' usp4.txt 
+  332  grep  -Ev '\b[0-9]{2,4}\b' usp4.txt 
+  333  grep  -E '\b[0-9]\b' usp4.txt 
+  334  grep  -E '[0-9]' usp4.txt 
+  335  grep  -Ev '[0-9]' usp4.txt 
+  336  grep  -E '$^' usp4.txt 
+  337  grep  -Ev '$^' usp4.txt 
+  338  grep  -Ev '$^' usp4.txt > out.txt
+  339  diff usp4.txt out.txt 
+  340  ls
+  341  gre
+  342  grep -E '([0-9]{2})*.\#' usp4.txt 
+  343  grep -E '([0-9]{2})*.#' usp4.txt 
+  344  grep -E '#*.([0-9]{2})' usp4.txt 
+  345  cat usp4.txt 
+  346  grep -E '#*.:' usp4.txt 
+  347  grep -E '#.*:' usp4.txt 
+  348  grep -E '#' usp4.txt | grep '[0-9]'
+  349  grep '\[46]' usp4.txt 
+  350  grep '\#[4]' usp4.txt 
+  351  grep -E '#|[0-9]' usp4.txt 
+  352  grep -E '#|[0-9]{4}' usp4.txt 
+  353  grep -E '#|[0-9]$' usp4.txt 
+  354  grep -E '#|\b[0-9]\b$' usp4.txt 
+  355  grep -E '#|\b[0-9]{2}\b$' usp4.txt 
+  356  grep -E '#.*:' usp4.txt 
+  357  grep -E '#' usp4.txt | grep ':' 
+  358  cat out.txt 
+  359  nano out.txt 
+  360  clear
+  361  cat out.txt 
+  362  clear
+  363  cat out.txt 
+  364  nano usp4.txt 
+  365  cp usp4.txt ~/GitHub/USP/usp4/
+  366  cd ~/GitHub/USP/
+  367  git add usp4/
+  368  git commit -m"usp4.txt"
+  369  git push
+  370  cd ~/USP/usp4
+  371  ls
+  372  clear
+  373  cat usp4.txt 
+  374  grep -E '\-[Tutor]' usp4.txt 
+  375  grep -E '-[Tutor]' usp4.txt 
+  376  grep -E '-|Tutor' usp4.txt 
+  377  grep -E '\-|(Tutor)' usp4.txt 
+  378  grep -E '#.*(Tutor)' usp4.txt 
+  379  grep -E '#.*(Tutor\b)' usp4.txt 
+  380  grep -Ei '#.*(Tutor\b)' usp4.txt 
+  381  grep -Ei '#.*(Tutor)' usp4.txt 
+  382  grep -Ei '#.*(Tutorial)' usp4.txt 
+  383  grep -E '#.*(Tutorial)' usp4.txt 
+  384  grep -E '#.*([0-9])' usp4.txt 
+  385  grep -E '#.*([0-9]{2})' usp4.txt 
+  386  grep -E '#.*([0-9]{2}\b)' usp4.txt 
+  387  grep -E '#.*(\b[0-9]{2}\b)' usp4.txt 
+  388  grep -El '#.*(\b[0-9]{2}\b)' usp4.txt 
+  389  grep -En '#.*(\b[0-9]{2}\b)' usp4.txt 
+  390  ls
+  391  cd ..
+  392  ls
+  393  ls -R
+  394  grep -R 'log.*' 
+  395  grep -Rl 'log.*' 
+  396  grep -Rn 'log.*' 
+  397  cd usp4
+  398  ls
+  399  grep -w 'tutor' usp4.txt 
+  400  grep -w -A2 'tutor' usp4.txt 
+  401  grep -w -B2 'tutor' usp4.txt 
+  402  grep -w -C1 'tutor' usp4.txt 
+  403  ls
+  404  clear
+  405  cat out.txt 
+  406  grep -E '' out.txt 
+  407  grep -E '#.*([0-9])' out.txt 
+  408  grep -E '#.*([0-9]$)' out.txt 
+  409  grep -E '#.*([0-9]{2}$)' out.txt 
+  410  grep -E '#.*(\b[0-9]{2}\b$)' out.txt 
+  411  grep -E '#|(tutor)' out.txt 
+  412  grep -Ei '#|(tutor)' out.txt 
+  413  grep -Ein '#|(tutor)' out.txt 
+  414  grep -Ein '#|(tutor\B)' out.txt 
+  415  grep -Ein '#|(tutor\b)' out.txt 
+  416  grep -Ein '#.*(tutor\b)' out.txt 
+  417  grep -Ein '#.*([0-9]{2}\b)' out.txt 
+  418  grep -Ein '#.*(\b[0-9]{2}\b)' out.txt 
+  419  grep -Ein '#.*(\b[0-9]{2}$\b)' out.txt 
+  420  clear
+  421  ls
+  422  cd GitHub/
+  423  cd WSd
+  424  cd WSD
+  425  ls
+  426  git pull
+  427  cp -R Demo-lec6-XSLT/ ~/NetBeansProjects
+  428  cd ~/NetBeansProjects/Demo-lec6-XSLT/build/web/WEB-INF/
+  429  ls
+  430  pwd
+  431  cd
+  432  ls
+  433  cd USP
+  434  ls
+  435  cd usp4
+  436  ls
+  437  rm out.txt 
+  438  ls
+  439  nano out.txt
+  440  rm out.txt 
+  441  ls
+  442  clear
+  443  ls
+  444  pwd
+  445  ls
+  446  cat usp4.txt 
+  447  grep 'tutor' usp4.txt 
+  448  grep -i 'tutor' usp4.txt 
+  449  grep -iw 'tutor' usp4.txt 
+  450  clear
+  451  grep -i 'tutor' usp4.txt 
+  452  grep -i '\btutor\b' usp4.txt 
+  453  grep -in '\btutor\b' usp4.txt 
+  454  grep -in '\btutor' usp4.txt 
+  455  clear
+  456  cat usp4.txt 
+  457  grep 'grep' usp4.txt 
+  458  grep -i 'grep' usp4.txt 
+  459  grep -in 'grep' usp4.txt 
+  460  grep -i 'grep' usp4.txt 
+  461  grep -n 'grep' usp4.txt 
+  462  grep -n -B2 'grep' usp4.txt 
+  463  grep -n -A2 'grep' usp4.txt 
+  464  grep -n -C1 'grep' usp4.txt 
+  465  cat usp4.txt 
+  466  grep '^$' usp4.txt 
+  467  grep -v '^$' usp4.txt 
+  468  grep -v '^$' usp4.txt > out.txt
+  469  ls
+  470  cat out.txt 
+  471  grep -E '#.*([0-9])' out.txt 
+  472  grep -E '#|([0-9])' out.txt 
+  473  grep '#|([0-9])' out.txt 
+  474  egrep '#|([0-9])' out.txt 
+  475  grep -E '#|([0-9])' out.txt 
+  476  grep -E '([0-9]{1,4})' out.txt 
+  477  grep -E '([0-9]{2,4})' out.txt 
+  478  grep -E '([0-9]{2})' out.txt 
+  479  grep -E '(\b[0-9]{2}\b)' out.txt 
+  480  grep -E '(\b[0-9]{2}\b$)' out.txt 
+  481  grep  '(\b[0-9]{2}\b$)' out.txt 
+  482  grep -E '(\b[0-9]{2}\b$)' out.txt 
+  483  grep -E '(\b[0-9]{2}\b)' out.txt 
+  484  grep -E '(\b[0-9]{2}\b|#)' out.txt 
+  485  cat out.txt 
+  486  grep -E '^-' out.txt 
+  487  grep -E '^-.*([0-9])' out.txt 
+  488  grep -E '^-.*(\b[0-9]\b)' out.txt 
+  489  grep -Ev '^-.*(\b[0-9]\b)' out.txt 
+  490  cd ..
+  491  pwd
+  492  grep -r 'log' 
+  493  grep -rl 'log' 
+  494  grep -rn 'log' 
+  495  cd usp4
+  496  cat out.txt 
+  497  grep -E '^#.*([0-9])' out.txt 
+  498  grep -E '^#.*([0-9]$)' out.txt 
+  499  grep -E '^#.*(\b[0-9]\b$)' out.txt 
+  500  grep -E '^#.*(\b[0-9]{2}\b$)' out.txt 
+  501  history > log.txt
+  502  ls
+  503  cp log.txt ~/GitHub/USP/usp4/
+  504  cd ~/GitHub/USP/usp4/
+  505  ls
+  506  git add --all
+  507  git commit -m "usp4 log"
+  508  git push
+  509  ls
+  510  cd USP/
+  511  ls
+  512  ls -r
+  513  ls -R
+  514  ls
+  515  cp * ~/GitHub/USP/
+  516  cp -R * ~/GitHub/USP/
+  517  cd ~/GitHub/USP/
+  518  ls
+  519  git add --all
+  520  git commit -m "usp labs demos"
+  521  git push
+  522  cd 
+  523  cd Downloads/
+  524  ls
+  525  mv Tutorial\ 4\ -\ RegEx.txt ~/GitHub/USP/usp4
+  526  ls
+  527  clear
+  528  ls
+  529  rm LinuxGym.txt 
+  530  mv LinuxGym\ \(1\).txt LinuxGym.txt
+  531  ls
+  532  mv LinuxGym.txt ~/GitHub/USP
+  533  ls
+  534  cd ~/GitHub/USP/
+  535  ls
+  536  git add --all
+  537  git commit -m "usp demos updated"
+  538  git push
+  539  ls
+  540  grep -v '^$' LinuxGym.txt 
+  541  grep  '^$' LinuxGym.txt 
+  542  grep -Ev '^$' LinuxGym.txt 
+  543  grep -v '^$' LinuxGym.txt 
+  544  nano LinuxGym.txt 
+  545  git add --all
+  546  git commit -m "usp demos updated"
+  547  git push
+  548  processing
+  549  ls
+  550  cd GitHub/Processing/Lab5
+  551  cd ..
+  552  git add Lab5
+  553  git commit -m "Lab5 updated"
+  554  git push
+  555  ls
+  556  cd sketchbook/Labs/
+  557  cp -R Lab5 ~/GitHub/Processing/
+  558  cd ~/GitHub/Processing/
+  559  git add --all
+  560  git commit -m "Lab 5 updated"
+  561  git push
+  562  processing
+  563  ls
+  564  cd sketchbook/Labs/
+  565  cp -R Lab5 ~/GitHub/Processing/
+  566  cd ~/GitHub/Processing/
+  567  ls
+  568  git add --all
+  569  git commit -m "Lab 5 last update"
+  570  git push
+  571  processing
+  572  cd
+  573  cd sketchbook/Labs/
+  574  cp -R Lab5 ~/GitHub/Processing/
+  575  cd ~/GitHub/Processing/
+  576  git add Lab5/
+  577  git commit "Lab5 v6"
+  578  git commit -m"Lab5 v6"
+  579  git push
+  580  processing
+  581  ls
+  582  cd Downloads/
+  583  ls
+  584  cd Leap_Motion_Setup_Linux_2.3.1/
+  585  ls
+  586  cd Leap_Motion_Installer_Packages_release_public_linux/
+  587  ls
+  588  cd
+  589  cd UTS/IM/
+  590  ls
+  591  cd Leap_Motion_Setup_Linux_2.3.1/
+  592  ls
+  593  cd Leap_Motion_Installer_Packages_release_public_linux/
+  594  ls
+  595  sudo dpkg --install Leap-*-x64.deb
+  596  man dpkg
+  597  sudo dpkg -i Leap-*-x64.deb
+  598  sudo dpkg -ir Leap-*-x64.deb
+  599  sudo dpkg -i Leap-*-x64.deb
+  600  su dpkg -i Leap-*-x64.deb
+  601  su dpkg -install Leap-*-x64.deb
+  602  su dpkg --install Leap-*-x64.deb
+  603  sudo dpkg --install Leap-*-x64.deb
+  604  ./configure
+  605  sudo make install
+  606  sudo apt-get update && sudo apt-get dist-upgrade
+  607  sudo apt-get update -fix-missing
+  608  sudo dpkg -configure-a
+  609  sudo apt-get dpkg
+  610  sudo apt-get install dpkg
+  611  sudo apt-get update dpkg
+  612  sudo apt-get --fix-broken dpkg
+  613  sudo apt-get --fix-broken
+  614  sudo apt-get --fix-broken dpkg
+  615  sudo apt-get --fix-broken
+  616  sudo apt-get update
+  617  sudo apt-get alien
+  618  sudo apt-get install alien
+  619  # yum install epel-release
+  620  # rpm --import http://li.nux.ro/download/nux/RPM-GPG-KEY-nux.ro
+  621  yum install epel-release
+  622  sudo yum install epel-release
+  623  sudo apt-get install alien
+  624  sudi dnf install alien
+  625  sudo dnf install alien
+  626  sudo dnf install dpkg
+  627  sudo dnf update
+  628  sudo dnf upgrade
+  629  ls
+  630  alien -r Leap-2.3.1+31549-x64.deb 
+  631  alien -r Leap-2.3.1+31549-x86.deb 
+  632  ls
+  633  cat /etc/issue
+  634  cat /etc/fedora-release
+  635  unmame -a
+  636  uname -a
+  637  sudo dnf install le
+  638  clear
+  639  ls
+  640  sudo dnf install leap-2.3.1+31549-2.x86_64.rpm 
+  641  dnf clean packages
+  642  ls
+  643  cd..
+  644  cd
+  645  processing
+  646  sudo yum install rpm-build rpm-build-libs
+  647  cd GitHub/
+  648  cd Processing/
+  649  ls
+  650  mkdir Leap
+  651  cd Leap
+  652  ls
+  653  pwd
+  654  git clone git@github.com:atejeda/leap-fedora-rpm.git
+  655  tar xzf LeapDeveloperKit_+_linux.tgz *.deb
+  656  mv LeapDeveloperKit_$LEAP_+_linux/*.deb leap-fedora-rpm/SOURCES/
+  657  cd leap-fedora-rpm
+  658  make clean all
+  659  sudo yum remove Leap # uninstal older package just in case
+  660  sudo yum install -y RPMS/`uname -p`/Leap-VERSION-RELEASE.*.`uname -p`.rpm
+  661  sudo systemctl start leap.service
+  662  cd Downloads/
+  663  ls
+  664  cp Demo-lec6-XSLT.zip ~/NetBeansProjects/ZIP/
+  665  rm Demo-lec6-XSLT.zip 
+  666  ls
+  667  rm *.exe
+  668  ls
+  669  rm *.jsp
+  670  ls
+  671  rm -rf Leap_Motion_Setup_Linux_2.3.1*
+  672  ls
+  673  cd GitHub/Processing/
+  674  ls
+  675  gill pull
+  676  git pull
+  677  ls
+  678  cp -R Lab6 ~/sketchbook/Labs/
+  679  cd ~/sketchbook/
+  680  cd Labs/
+  681  ls
+  682  processing
+  683  ls
+  684  cd GitHub/Processing/Lab6
+  685  ls
+  686  git rm -rf MarioWorldv2/
+  687  git add --all
+  688  git commit -m "Lab 6 update 1"
+  689  git push
+  690  processing
+  691  ls
+  692  cd sketchbook/Labs/Lab5
+  693  ls
+  694  cd MarioWorld/
+  695  ls
+  696  cd ..
+  697  ls
+  698  cd Practice/
+  699  ls
+  700  cp *.png *.gif ~/sketchbook/Labs/Lab6/Practice/
+  701  cd ~/sketchbook/Labs/Lab6/Practice/
+  702  lsa
+  703  ls
+  704  cd ~/sketchbook/Labs/Lab5/MarioWorld/
+  705  cp *.png *.gif ~/sketchbook/Labs/Lab6/Practice/
+  706  ls
+  707  cd ~/sketchbook/Labs/Lab6
+  708  ls
+  709  cp -R Practice/ ~/GitHub/Processing/Lab6
+  710  cd ~/GitHub/Processing/
+  711  ls
+  712  git add Lab6/
+  713  git commit -m "Lab6 update2"
+  714  ls
+  715  cd Lab6/
+  716  ls
+  717  cd Practice/
+  718  ls
+  719  rm *.gif
+  720  ls
+  721  cd ..
+  722  ls
+  723  cd ..
+  724  ls
+  725  cd Lab5
+  726  ls
+  727  cd Practice/
+  728  ls
+  729  cp *.gif ~/GitHub/Processing/Lab6
+  730  ls
+  731  cd ..
+  732  ls
+  733  cd ..
+  734  ls
+  735  cd Lab6
+  736  ls
+  737  mv *.gif Practice/
+  738  cd Practice/
+  739  ls
+  740  cd ..
+  741  ls
+  742  cd ..
+  743  ls
+  744  git add Lab6
+  745  git commit -m"Lab6 update2"
+  746  git push
+  747  processing
+  748  ls
+  749  clear
+  750  ls
+  751  exit
+  752  processing
+  753  ls
+  754  cd sketchbook/Labs/
+  755  cp -R Lab6 ~/GitHub/Processing/
+  756  cd ~/GitHub/Processing/
+  757  git add Lab6
+  758  git commit -m "Lab 6 update  3"
+  759  git push
+  760  exit
+  761  ls
+  762  cd sketchbook/Labs/Lab6
+  763  ls
+  764  cd Practice/
+  765  ls
+  766  nano Practice.pde 
+  767  processing
+  768  ls
+  769  processing Practice.pde 
+  770  ls
+  771  cd sketchbook/Labs/Lab6
+  772  ls
+  773  cd SaveFrames/
+  774  ls
+  775  processing SaveFrames.pde 
+  776  ls
+  777  cd ..
+  778  cd Practice/
+  779  processing Practice.pde 
+  780  ls
+  781  cd sketchbook/
+  782  ls
+  783  cd Labs/
+  784  ls
+  785  cd Lab6
+  786  ls
+  787  cd SaveFrames/
+  788  ls
+  789  processing SaveFrames.pde 
+  790  ls
+  791  cd ..
+  792  ls
+  793  cd MarioWorldv2/
+  794  ls
+  795  rm mariobros.gif 
+  796  processing MarioWorldv2.pde 
+  797  cd ..
+  798  ls
+  799  cd Practice/
+  800  ls
+  801  processing Practice.pde 
+  802  cd Downloads/
+  803  ls
+  804  mv MarioWorldv3 ~/sketchbook/Labs/
+  805  cd ~/sketchbook/Labs/
+  806  ls
+  807  mkdir Lab7
+  808  mv MarioWorldv3/ Lab7
+  809  ls
+  810  ls Lab7
+  811  ls
+  812  cd Lab7
+  813  cd MarioWorldv3/
+  814  ls
+  815  processing MarioWorldv3.pde 
+  816   
+  817  ls
+  818  ./start_pipe.sh 
+  819  ./netbeans.sh 
+  820  cd sketchbook/Labs/Lab7
+  821  ls
+  822  cd MarioWorldv3/
+  823  ls
+  824  processing MarioWorldv3.pde 
+  825  cd ~/sketchbook/Labs/Lab7
+  826  ls
+  827  cd MarioWorldv3/
+  828  ls
+  829  processing MarioWorldv3.pde 
+  830  cd ~/sketchbook/Labs/Lab7/MarioWorldv3/
+  831  ls
+  832  processing MarioWorldv3.pde 
+  833  ls
+  834  exit
+  835  ./start_pipe.sh 
+  836  ls
+  837  cd GitHub/Processing/
+  838  ls
+  839  git pull
+  840  ls
+  841  cp -R Lab8 ~/sketchbook/Labs/
+  842  cd ~/Downloads/
+  843  ls
+  844  mv GradesGraph ~/sketchbook/Labs/Lab8
+  845  cd ~/sketchbook/Labs/Lab8
+  846  ls
+  847  cd Practice/
+  848  processing Practice.pde 
+  849  c\
+  850  cd ..
+  851  ls
+  852  cd GradesGraph/
+  853  processing GradesGraph.pde 
+  854  cd ~/sketchbook/Labs/
+  855  ls
+  856  cd Lab8
+  857  cd Practice/
+  858  ls
+  859  processing Practice.pde 
+  860  cd ..
+  861  ls
+  862  cd GradesGraph/
+  863  ls
+  864  cd BitBucket/
+  865  ls
+  866  cd dev-repo/
+  867  ls
+  868  git pull
+  869  git merge
+  870  git stash 
+  871  git pull
+  872  git merge
+  873  git fetch --all
+  874  git reset --hard origin/master
+  875  git pull
+  876  ls
+  877  cd maven-app-heroku/
+  878  ls
+  879  cd BitBucket/dev-repo/
+  880  git pull
+  881  git fetch --all
+  882  git reset --hard origin/master
+  883  git pull
+  884  ls
+  885  cd sketchbook/
+  886  ls
+  887  cd Labs/Lab8
+  888  ls
+  889  cd Practice/
+  890  ls
+  891  processing Practice.pde 
+  892  ls
+  893  cd
+  894  ls
+  895  cd UTS/
+  896  ls
+  897  cd USP/
+  898  ls
+  899  cd perl1
+  900  ls
+  901  cat args.pl 
+  902  ls
+  903  cat calc.pl 
+  904  ls
+  905  nano calc.pl 
+  906  nano demo.pl 
+  907  cd demo
+  908  ls
+  909  nano copy.pl 
+  910  nano calc.pl 
+  911  nano max.pl 
+  912  nano test.pl 
+  913  nano secret.pl 
+  914  ls
+  915  cd ..
+  916  cd demo2
+  917  ls
+  918  cat calc.pl 
+  919  cd ..
+  920  ls
+  921  rm -rf demo2
+  922  ls
+  923  cat move.pl 
+  924  ls
+  925  nano numtest.pl 
+  926  cd ~/sketchbook/Labs/Lab8/GradesGraph/
+  927  processing GradesGraph.pde 
+  928  ls
+  929  cd USP
+  930  ls
+  931  mkdir perl1
+  932  cd perl1/
+  933  ls
+  934  clear
+  935  nano welcome.pl
+  936  chmod u+x welcome.pl 
+  937  ./welcome.pl 
+  938  nano copy.pl
+  939  chmod u+x copy.pl 
+  940  ls
+  941  ./copy.pl welcome.pl 
+  942  ls
+  943  chmod u+x grades.pl 
+  944  ./grades.pl 
+  945  nano grades.pl 
+  946  ./grades.pl 
+  947  nano grades.pl 
+  948  ./grades.pl 
+  949  ./grades.pl 55
+  950  nano copy.pl 
+  951  ./copy.pl grades.pl grades.txt
+  952  ls
+  953  cat *.txt
+  954  chmod u+x grades.txt
+  955  ./grades.txt
+  956  ./grades.txt 66
+  957  nano copy.pl 
+  958  ls
+  959  nano average.pl
+  960  chmod u+x average.pl 
+  961  ./average.pl 
+  962  nano average.pl
+  963  ./average.pl 
+  964  clear
+  965  ./average.pl 
+  966  nano average.pl
+  967  ./average.pl 
+  968  nano average.pl
+  969  ./average.pl 
+  970  nano average.pl
+  971  ./average.pl 
+  972  nano average.pl
+  973  ./average.pl 
+  974  nano average.pl
+  975  ./average.pl 
+  976  nano average.pl
+  977  ./average.pl 
+  978  nano average.pl
+  979  ./average.pl 
+  980  nano average.pl
+  981  ./average.pl 
+  982  nano average.pl
+  983  ./average.pl 
+  984  nano average.pl
+  985  ./average.pl 
+  986  nano average.pl
+  987  nano secret.pl
+  988  chmod u+x secret.pl 
+  989  ./secret.pl 
+  990  chmod u+x secret.pl 
+  991  nano secret.pl
+  992  ./secret.pl 
+  993  ls
+  994  nano copy.pl 
+  995  cd ..
+  996  ls
+  997  rm -rf perl1/
+  998  ls
+  999  exit
+ 1000  ls
+ 1001  cd USP
+ 1002  ls
+ 1003  mkdir perl1
+ 1004  ls
+ 1005  cd perl1
+ 1006  nano welcome.pl
+ 1007  chmod u+x welcome.pl 
+ 1008  ./welcome.pl 
+ 1009  nano welcome.pl
+ 1010  ./welcome.pl 
+ 1011  clear
+ 1012  ./welcome.pl 
+ 1013  nano welcome.pl
+ 1014  ./welcome.pl 
+ 1015  nano copy.pl
+ 1016  chmod u+x copy.pl 
+ 1017  ./copy.pl welcome.pl grades.txt
+ 1018  ls
+ 1019  cat grades.txt 
+ 1020  chmod u+x grades.txt 
+ 1021  ls
+ 1022  clear
+ 1023  ls
+ 1024  ./grades.txt 
+ 1025  cat grades.txt 
+ 1026  ls
+ 1027  nano grades.txt 
+ 1028  ./grades.txt 66
+ 1029  ls
+ 1030  nano copy.pl 
+ 1031  ls
+ 1032  nano grades.txt 
+ 1033  clear
+ 1034  ls
+ 1035  nano average.pl
+ 1036  chmod u+x average.pl 
+ 1037  ./average.pl 
+ 1038  nano average.pl
+ 1039  clear
+ 1040  ./average.pl 
+ 1041  nano average.pl
+ 1042  ./average.pl 
+ 1043  nano average.pl
+ 1044  ./average.pl 
+ 1045  nano average.pl
+ 1046  clear
+ 1047  ./average.pl 
+ 1048  nano average.pl
+ 1049  clear
+ 1050  nano secret.pl
+ 1051  chmod secret.pl 
+ 1052  chmod u+x secret.pl 
+ 1053  ./secret.pl 
+ 1054  nano secret.pl
+ 1055  clear
+ 1056  ./secret.pl 
+ 1057  nano secret.pl
+ 1058  ./secret.pl 
+ 1059  history > perl1.txt

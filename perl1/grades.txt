@@ -1,0 +1,20 @@
+#!/bin/perl
+
+print "Name: "; $name=<STDIN>; chomp($name);
+
+$mark = $ARGV[0];
+$grade ="";
+
+if($mark >= 85){
+	$grade="HD";
+}elsif($mark >= 75){
+	$grade="D";
+}elsif($mark >= 65){
+	$grade="C";
+}elsif($mark ge 50){
+	$grade="P";
+}else{
+	$grade="Z";
+}
+
+print"Welcome $name your mark is $mark and your grade is $grade \n";
