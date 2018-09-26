@@ -1,0 +1,11 @@
+Hello this is perl tutorial :
+
+1- This tutorial focuses on regex with perl
+2- The tut is also a reminder of basic perl syntax
+3- It is important to understand regex in this tutorial
+4- Make sure to ask your tutor for help when attempting the tut skills 
+excercises.
+
+
+
+
