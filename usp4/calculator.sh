@@ -1,16 +1,15 @@
 #!/bin/bash
 
-echo -n "> a = "
-read a
-
-echo -n "> b = "
-read b
-
-echo -n "Operation: "
+echo -n "Operation (+ - * /) or x to exit: "
 read op
 
 while [ "$op" != "x" ]
 do
+echo -n "> a = " 
+read a
+echo -n "> b = " 
+read b
+
 case $op in
 	-)let res=$a-$b
 	;;
@@ -24,11 +23,7 @@ esac
 
 echo "> $a $op $b = $res"
 
-echo -n "> a = "
-read a
-echo -n "> b = "
-read b
-echo -n ">Operation = "
+echo -n "Operation (+ - * /) or x to exit: "
 read op
 
 done
