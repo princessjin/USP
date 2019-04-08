@@ -1,0 +1,1000 @@
+  113  cp -R ISD-Demo-MVC/ ~/NetBeansProjects/
+  114  ls
+  115  cd ~/NetBeansProjects/
+  116  ls
+  117  cd ZIP/
+  118  ls
+  119  cd ..
+  120  ls
+  121  cd s9_e3b/
+  122  ls
+  123  cd ..
+  124  ls
+  125  rm -rf s9_e3b/
+  126  ls
+  127  cd ZIP/
+  128  ls
+  129  rm AppProg-lab09.zip 
+  130  ls
+  131  rm JAXB-BEANS.zip 
+  132  ls
+  133  cd ..
+  134  ls
+  135  cd ZIP
+  136  ls
+  137  rm Demo-lec9-XMLParsing 
+  138  ls
+  139  cd ..
+  140  ls
+  141  cd node4j-master/
+  142  ls
+  143  cd ..
+  144  rm node4j-master/
+  145  rm -rf node4j-master/
+  146  ls
+  147  cd
+  148  cd GitHub/
+  149  ls
+  150  cd WSD
+  151  ls
+  152  git pull
+  153  ls
+  154  git pull
+  155  ls
+  156  cd ..
+  157  cd ~/NetBeansProjects/
+  158  ls
+  159  cd -R ~/GitHub/WSD/ZIP/ ~/NetBeansProjects/ZIP/
+  160  cp -R ~/GitHub/WSD/ZIP/ ~/NetBeansProjects/ZIP/
+  161  ls
+  162  ls ZIP/
+  163  cp -R ~/NetBeansProjects/ZIP/ZIP/ .
+  164  ls
+  165  ls ZIP/
+  166  cd ZIP/
+  167  ls
+  168  rm -r ZIP/
+  169  ls
+  170  cd ..
+  171  ls
+  172  ls ZIP/
+  173  bluej &
+  174  ls
+  175  clear
+  176  ls
+  177  cd USP
+  178  ls
+  179  mkdir usp1
+  180  ls
+  181  mv we* usp1/
+  182  ls
+  183  ls usp1/
+  184  mkdir usp2
+  185  ls
+  186  cd usp2
+  187  pwd
+  188  clear
+  189  pwd
+  190  touch f1 f2 f3 f4
+  191  ls -l
+  192  chmod u+x f1
+  193  ls -l
+  194  chmod g-r,g-w f2
+  195  ls -l
+  196  chmod a+rwx f2
+  197  ls -l
+  198  chmod a-rwx f3
+  199  ls -l
+  200  cat f3
+  201  chmod 764 f3
+  202  ls -l
+  203  chmod 664 f[0-9]
+  204  ls
+  205  ls -l
+  206  clear
+  207  ls
+  208  var=2
+  209  echo $var
+  210  unset var
+  211  echo $var
+  212  cmd=ls -l
+  213  cmd= ls -l
+  214  var='ls -l'
+  215  echo $var
+  216  $var
+  217  clear
+  218  unset var
+  219  var='ls -l | nl'
+  220  $var
+  221  var='ls -l > out'
+  222  $var
+  223  ls
+  224  var='ls -l'
+  225  $var
+  226  unset var
+  227  clear
+  228  pwd
+  229  nano list.sh
+  230  ls
+  231  ./list.sh
+  232  chmod u+x list.sh 
+  233  ./list.sh 
+  234  cat list.sh 
+  235  clear
+  236  ls
+  237  nano exec.sh
+  238  chmod u+x exec.sh 
+  239  ls
+  240  ./exec.sh f1
+  241  ls -l
+  242  clear
+  243  nano array.sh
+  244  ./exec.sh array.sh 
+  245  ls
+  246  ./array.sh 
+  247  nano array.sh
+  248  ./array.sh 
+  249  nano array.sh
+  250  ./array.sh 
+  251  nano array.sh
+  252  ./array.sh 
+  253  nano array.sh
+  254  ./array.sh 
+  255  nano array.sh
+  256  ./array.sh 
+  257  nano array.sh
+  258  ./array.sh 
+  259  nano array.sh
+  260  ./array.sh 
+  261  nano array.sh
+  262  ./array.sh 
+  263  ./netbeans.sh 
+  264  ls
+  265  cd GitHub/
+  266  ls
+  267  cd ISD/
+  268  ls
+  269  git pull 
+  270  ls
+  271  cp -R ISD-Demo-MVC/ ~/NetBeansProjects/
+  272  cd
+  273  ls
+  274  ./netbeans.sh 
+  275  cd NetBeansProjects/ZIP/
+  276  ls
+  277  rm ISD-Demo.zip 
+  278  ls
+  279  exit
+  280  ls
+  281  cd USP/
+  282  ls
+  283  cd ..
+  284  ls
+  285  cd UTS/
+  286  ls
+  287  cd USP/
+  288  ls
+  289  cd usp3
+  290  ls
+  291  cd ..
+  292  ls usp4
+  293  ls
+  294  cd usp4
+  295  ls
+  296  cat usp4.txt 
+  297  grep '^#' usp4.txt 
+  298  grep '^#' usp4.txt | nl
+  299  grep '^#' usp4.txt | wc
+  300  grep '^#' usp4.txt | w
+  301  grep '^#' usp4.txt | l
+  302  grep 'java' usp4.txt 
+  303  cat usp4.txt 
+  304  grep -E 'tutor' usp4.txt 
+  305  grep  'tutor' usp4.txt 
+  306  grep  -i 'tutor' usp4.txt 
+  307  grep  -i 'tutor\b' usp4.txt 
+  308  clear
+  309  ./start_pipe.sh 
+  310  ls
+  311  nano start_pipe.sh 
+  312  ./start_pipe.sh 
+  313  ls
+  314  cd USP
+  315  ls
+  316  mkdir uso3
+  317  rmdir uso3/
+  318  mkdir usp3
+  319  ls
+  320  cd usp3
+  321  ls
+  322  touch f1 f2 f3 f4
+  323  ls -l
+  324  ls -l | tail -n+4
+  325  ls -l | tail -n+1
+  326  ls -l | tail -n
+  327  ls -l | tail -n+2
+  328  ls -l | head -1
+  329  ls -l | head -4
+  330  ls -l | tail -n+2
+  331  ls -l | tail -n+2 > list.txt
+  332  cat list.txt | wc
+  333  cat list.txt | wc -l
+  334  cat list.txt | wc -w
+  335  cat list.txt | wc -c
+  336  cat < list.txt 
+  337  cat list.txt 
+  338  cat list.txt | head -4
+  339  cat list.txt | head -4 > out.txt
+  340  ls
+  341  diff out.txt list.txt 
+  342  diff -v out.txt list.txt 
+  343  diff -n out.txt list.txt 
+  344  uniq list.txt out.txt 
+  345  diff out.txt list.txt 
+  346  cat out.txt 
+  347  cat list.txt 
+  348  cat list.txt | head -4 > out.txt
+  349  cat out.txt 
+  350  cat list.txt | head -4 1> out.txt &2>1
+  351  cat out.txt 
+  352  chmod u-rwx
+  353  chmod u-rwx list.txt 
+  354  cat list.txt | head -4 1> out.txt &2>1
+  355  cat out.txt | cut -d " " -f 3-6
+  356  cat out.txt | cut -d ' ' -f 3-6
+  357  cat out.txt | cut -d ' ' -f 3-9
+  358  cat out.txt | cut -d ' ' -f3-9
+  359  cat out.txt | cut -d ' ' -f3
+  360  cat out.txt 
+  361  chmod 664 list.txt 
+  362  cat list.txt | head -4
+  363  cat list.txt | head -4 > out.txt 
+  364  ls
+  365  cat out.txt | cut -d ' ' -f3
+  366  cat out.txt | cut -d ' ' -f3-8
+  367  cat out.txt | cut -d ' ' -f3,8
+  368  cat out.txt | cut -d ' ' -f3,9
+  369  cat out.txt | cut -d ' ' -f1-4,9
+  370  cat out.txt | cut -d ' ' -f1-3,9
+  371  cat out.txt | awk '{ print $1 " " $3" " $9}'
+  372  uniq -udc list.txt output.txt
+  373  cat output.txt 
+  374  rm output.txt 
+  375  ls
+  376  exit
+  377  bluej &
+  378  ls
+  379  ls Downloads/
+  380  mv -r ~/Downloads/lab-process ~/UTS/AppProg/
+  381  mv -R ~/Downloads/lab-process ~/UTS/AppProg/
+  382  mv ~/Downloads/lab-process ~/UTS/AppProg/
+  383  ls Downloads/
+  384  ls ~/UTS/AppProg/
+  385  clear
+  386  bluej &
+  387  ls
+  388  cd UTS/USP/usp3
+  389  ls
+  390  cd ..
+  391  ls
+  392  cd usp4
+  393  ls
+  394  cat usp4.txt 
+  395  exit
+  396  ls
+  397  cd USP
+  398  ls
+  399  mkdir usp4
+  400  ls
+  401  cd usp4
+  402  ls
+  403  touch f1 f2 f3 f4
+  404  ls
+  405  ls -l > list.txt
+  406  ls
+  407  cat list.txt 
+  408  cat list.txt | head -n+4
+  409  cat list.txt | head -n+2
+  410  cat list.txt | head -n+5
+  411  cat list.txt | tail -n+5
+  412  cat list.txt | tail -n+2
+  413  cat list.txt | tail -n+2 | head +4
+  414  cat list.txt | tail -n+2 | head 44
+  415  cat list.txt | tail -n+2 | head -4
+  416  cat list.txt | tail -n+2 | head -4 > out.txt
+  417  diff list.txt out.txt 
+  418  cat list.txt | tail -n+2 | head -4 >> out.txt
+  419  cat out.txt 
+  420  uniq out.txt 
+  421  uniq out.txt output.txt
+  422  cat output.txt 
+  423  rm output.txt 
+  424  uniq -n out.txt output.txt
+  425  man uniq
+  426  uniq -d out.txt output.txt
+  427  cat output.txt 
+  428  uniq -d out.txt 
+  429  uniq out.txt 
+  430  man uniq
+  431  uniq -D out.txt 
+  432  uniq out.txt 
+  433  uniq -c out.txt 
+  434  sort out.txt 
+  435  cat out.txt 
+  436  sort out.txt 
+  437  sort out.txt | uniq 
+  438  sort out.txt | uniq -C
+  439  sort out.txt | uniq -c
+  440  ls
+  441  cd ..
+  442  ls
+  443  rm -r usp4
+  444  ls
+  445  bluej &
+  446  exit
+  447  bluej &
+  448  ./netbeans.sh 
+  449  gedit &
+  450  ls
+  451  cd Downloads/
+  452  ls
+  453  cd USP
+  454  ls
+  455  mkdir usp3
+  456  mkdir usp4
+  457  ls
+  458  cd usp4
+  459  pwd
+  460  touch f1 f2 f3
+  461  ls
+  462  ls -l
+  463  clear
+  464  ls -l
+  465  ls -l > out.txt
+  466  ls
+  467  cat out.txt 
+  468  la
+  469  touch f4
+  470  chmod a-rwx f3
+  471  ls -l
+  472  cat f1 f2 f3 f4
+  473  clear
+  474  cat f3 2> error.txt
+  475  cat error.txt 
+  476  ls 
+  477  rm f4
+  478  cat f1 f2 f3 >> out.txt 2>>error.txt 
+  479  cat out.txt 
+  480  cat error.txt 
+  481  cat f? >> out.txt 2>>error.txt 
+  482  cat f3 >> out.txt 2>>&1 
+  483  cat f3 >> out.txt 2>> &1 
+  484  cat f3 >> out.txt 2> &1 
+  485  cat f3 >> out.txt 2&>>1 
+  486  cat out.txt 
+  487  cat f3 > out.txt 2&>1 
+  488  cat out.txt 
+  489  cat f3 > out.txt 2&>0
+  490  cat out.txt 
+  491  clear
+  492  ls
+  493  cat f3 > out.txt 2>&1
+  494  cat out.txt 
+  495  ls -l
+  496  ls -l | tail -n+2
+  497  ls -l | tail -n+2 | wc
+  498  clear
+  499  ls -l | tail -n+2
+  500  ls -l | tail -n+2 | head -n+2
+  501  ls -l | tail -n+2 | head -2
+  502  ls -l | tail -n+2 | head -n
+  503  ls -l | tail -n+2 | head -6
+  504  ls -l | tail -n+2 | head -6 > out.txt
+  505  cat out.txt 
+  506  clear
+  507  cat out.txt 
+  508  cat out.txt | sed 's/rw/./g'
+  509  cat out.txt | sed 's/rw/./g' | sed 's/-/./g'
+  510  cat out.txt | sed 's/rw/./g' | sed 's/-/./g' | sed 's/.//g'
+  511  cat out.txt | sed 's/rw/./g' | sed 's/-/./g' | sed 's/.....r...//g'
+  512  cat out.txt | sed 's/rw/./g' | sed 's/-/./g' | sed 's/........//g'
+  513  cat out.txt
+  514  chmod 664 *
+  515  ls -l > out.txt 
+  516  cat out.txt 
+  517  cat out.txt | tail -n+2
+  518  cat out.txt | tail -n+2 | head -6
+  519  cat out.txt | tail -n+2 | head -6 > list.txt
+  520  cat list
+  521  cat list.txt 
+  522  cat list.txt | sed 's/-rw-rw-r--//g'
+  523  cat list.txt | sed 's/-rw-rw-r--//g' > out.txt 
+  524  cat out.txt 
+  525  clear
+  526  cat out.txt 
+  527  cat out.txt | cut -d " " -f1
+  528  cat out.txt | cut -d " " -f2
+  529  cat out.txt | cut -d " " -f3
+  530  cat out.txt 
+  531  clear
+  532  cat out.txt
+  533  cat out.txt | cut -d " " -f3,5,9
+  534  cat out.txt | cut -d " " -f3,5-9
+  535  cat out.txt | cut -d " " -f3,5-10
+  536  clear
+  537  cat out.txt 
+  538  cat out.txt | awk 'print $1'
+  539  cat out.txt | awk '{print $1}'
+  540  cat out.txt | awk '{print $1 " " $5}'
+  541  cat out.txt | awk '{print $3 " " $5 " "$9}'
+  542  cat out.txt | awk '{printf("%8s %4d %10s\n"$3,$5,$9)}'
+  543  cat out.txt | awk '{printf("%8s %4d %10s\n",$3,$5,$9)}'
+  544  cat out.txt | awk '{printf("%8s %4d %-10s\n",$3,$5,$9)}'
+  545  clear
+  546  nano test.sh
+  547  chmod u+x test.sh 
+  548  nano test.sh 
+  549  ./test.sh out.txt 
+  550  nano test.sh 
+  551  ./test.sh out.txt 
+  552  nano test.sh 
+  553  ./test.sh out.txt 
+  554  nano test.sh 
+  555  ./test.sh out.txt 
+  556  nano test.sh 
+  557  ./test.sh out.txt 
+  558  nano test.sh 
+  559  ./test.sh out.txt 
+  560  nano test.sh 
+  561  ./test.sh out.txt 
+  562  nano test.sh 
+  563  ./test.sh out.txt 
+  564  nano test.sh 
+  565  ./test.sh out.txt 
+  566  nano test.sh 
+  567  ./test.sh out.txt 
+  568  ./test.sh out.t
+  569  mkdir temp
+  570  ls
+  571  ./test.sh temp/
+  572  nano test.sh 
+  573  ls
+  574  cd BitBucket/
+  575  ls
+  576  cd dev-repo/
+  577  ls
+  578  git pull
+  579  merge origin master
+  580  git merge
+  581  git checkout
+  582  git merge orgin master
+  583  git reset head origin
+  584  git pull --f
+  585  git pull -f
+  586  git checkout master
+  587  pwd
+  588  git rebase
+  589  git stash
+  590  git pull
+  591  darkside666
+  592  clear
+  593  git pull
+  594  git checkout master
+  595  git checkout origin
+  596  ls
+  597  cd ..
+  598  ls
+  599  cd dev-repo/
+  600  ls
+  601  cd ..
+  602  cd ~/NetBeansProjects/
+  603  ls
+  604  cd ~/BitBucket/
+  605  ls
+  606  bluej &
+  607  ls
+  608  cd UTS/USP/
+  609  cd usp4
+  610  ls
+  611  cat usp4.txt 
+  612  grep 403 usp4.txt 
+  613  grep 403 usp4.txt | nl
+  614  grep tutor usp4.txt 
+  615  grep tutor usp4.txt#
+  616  grep tutor# usp4.txt
+  617  grep tutor\b usp4.txt
+  618  egrep tutor\b usp4.txt
+  619  grep -E tutor\b usp4.txt
+  620  grep -E 'tutor\b' usp4.txt
+  621  grep 'tutor\b' usp4.txt
+  622  grep -i 'tutor\b' usp4.txt
+  623  grep -in 'tutor\b' usp4.txt
+  624  grep -in -B2 'tutor\b' usp4.txt
+  625  grep -in -C1 'tutor\b' usp4.txt
+  626  grep -lir 'welcome' ~/USP
+  627  grep -lirn 'welcome' ~/USP
+  628  grep -irn 'welcome' ~/USP
+  629  grep -irn 'f?' ~/USP
+  630  grep -ir 'f?' ~/USP
+  631  grep -ir 'f*' ~/USP
+  632  grep -ir 'export' ~/USP
+  633  ls
+  634  cat usp4.txt 
+  635  grep '$[TB]' usp4.txt 
+  636  grep '\$[TB]' usp4.txt 
+  637  grep -E '$[TB]' usp4.txt 
+  638  grep -E '\$[TB]' usp4.txt 
+  639  grep -E '^[TB]' usp4.txt 
+  640  grep -E '^[TO]' usp4.txt 
+  641  grep -E '$[34]' usp4.txt 
+  642  grep -E '$[A-Z]' usp4.txt 
+  643  grep -E '[A-Z]' usp4.txt 
+  644  grep -E '^[A-Z]' usp4.txt 
+  645  grep -E '#.*T' usp4.txt 
+  646  grep -E '#|T' usp4.txt 
+  647  grep -E '#.*T' usp4.txt 
+  648  ls
+  649  cd UTS/USP/usp4
+  650  ls
+  651  cat hello.sh 
+  652  ./hello.sh John
+  653  cat max
+  654  cat max.sh 
+  655  ls
+  656  cat sum.sh 
+  657  ls
+  658  cat food.txt 
+  659  grep 'c' food.txt 
+  660  grep '^c' food.txt 
+  661  grep -l '^c' food.txt 
+  662  grep -n '^c' food.txt 
+  663  grep -nw '^c' food.txt 
+  664  grep -nc '^c' food.txt 
+  665  grep -n '^c.*b' food.txt 
+  666  grep -n '^c|b' food.txt 
+  667  grep -n '^c|^b' food.txt 
+  668  grep -nE '^c|^b' food.txt 
+  669  grep -nE '^c|b' food.txt 
+  670  grep -nEw '^c|b' food.txt 
+  671  grep -nEc '^c|b' food.txt 
+  672  ls
+  673  grep '#' *
+  674  grep -n '#' *
+  675  grep -n '#|grep' *
+  676  grep -nE '#|grep' *
+  677  grep -nEi '#|grep' *
+  678  ls
+  679  cat usp4.txt 
+  680  grep '^$' usp4.txt 
+  681  grep -v '^$' usp4.txt 
+  682  grep -i 'Unix' usp4.txt 
+  683  grep -i 'Unix' usp4.txt | sed 's/Unix/Linux/gi'
+  684  clear
+  685  ls
+  686  nano calculator.sh
+  687  chmod u+x calculator.sh 
+  688  ./calculator.sh 
+  689  nano calculator.sh
+  690  ./calculator.sh 
+  691  nano calculator.sh
+  692  ./calculator.sh 
+  693  nano calculator.sh
+  694  ./calculator.sh 
+  695  nano calculator.sh
+  696  ./calculator.sh 
+  697  nano calculator.sh
+  698  ./calculator.sh 4
+  699  nano calculator.sh
+  700  ./calculator.sh 
+  701  nano calculator.sh
+  702  ./calculator.sh 
+  703  nano calculator.sh
+  704  cd ..
+  705  ls
+  706  cd ls -R u*
+  707  cd ls -R 
+  708  ls
+  709  ls -r
+  710  ls -R
+  711  cd usp2/
+  712  ls
+  713  cat even.sh 
+  714  cd ..
+  715  ls
+  716  cd usp4
+  717  ls
+  718  nano calculator.sh 
+  719  ./calculator.sh 
+  720  nano calculator.sh 
+  721  ./calculator.sh 
+  722  nano calculator.sh 
+  723  ./calculator.sh 
+  724  nano calculator.sh 
+  725  ./calculator.sh 
+  726  nano calculator.sh 
+  727  ./calculator.sh 
+  728  nano calculator.sh 
+  729  ./calculator.sh 
+  730  nano calculator.sh 
+  731  ./calculator.sh 
+  732  nano calculator.sh 
+  733  ./calculator.sh 
+  734  nano calculator.sh 
+  735  ./calculator.sh 
+  736  nano calculator.sh 
+  737  ./calculator.sh 
+  738  nano calculator.sh 
+  739  ./calculator.sh 
+  740  nano calculator.sh 
+  741  ./calculator.sh 
+  742  nano calculator.sh 
+  743  ./calculator.sh 
+  744  nano calculator.sh 
+  745  ./calculator.sh 
+  746  nano calculator.sh 
+  747  ./calculator.sh 
+  748  nano calculator.sh 
+  749  ./calculator.sh 
+  750  nano calculator.sh 
+  751  ./calculator.sh 
+  752  nano calculator.sh 
+  753  ./calculator.sh 
+  754  nano calculator.sh 
+  755  ./calculator.sh 
+  756  nano calculator.sh 
+  757  ./calculator.sh 
+  758  nano calculator.sh 
+  759  ./calculator.sh 
+  760  nano calculator.sh 
+  761  ./calculator.sh 
+  762  nano calculator.sh 
+  763  ./calculator.sh 
+  764  nano calculator.sh 
+  765  ./calculator.sh 
+  766  nano calculator.sh 
+  767  ./calculator.sh 
+  768  nano calculator.sh 
+  769  ./calculator.sh 
+  770  nano calculator.sh 
+  771  ./calculator.sh 
+  772  nano calculator.sh 
+  773  ./calculator.sh 
+  774  nano calculator.sh 
+  775  ls
+  776  cd UTS/USP/usp4
+  777  ls
+  778  nano calculator.sh 
+  779  ./calculator.sh 
+  780  nano calculator.sh 
+  781  ./calculator.sh 
+  782  nano calculator.sh 
+  783  ./calculator.sh 
+  784  nano calculator.sh 
+  785  ./calculator.sh 
+  786  nano calculator.sh 
+  787  ./calculator.sh 
+  788  nano calculator.sh 
+  789  ./calculator.sh 
+  790  nano calculator.sh 
+  791  ./calculator.sh 
+  792  nano calculator.sh 
+  793  ./calculator.sh 
+  794  nano calculator.sh 
+  795  ./calculator.sh 
+  796  nano calculator.sh 
+  797  ./calculator.sh 
+  798  nano calculator.sh 
+  799  ./calculator.sh 
+  800  nano calculator.sh 
+  801  ./calculator.sh 
+  802  nano calculator.sh 
+  803  ./calculator.sh 
+  804  nano calculator.sh 
+  805  ./calculator.sh 
+  806  nano calculator.sh 
+  807  ./calculator.sh 
+  808  nano calculator.sh 
+  809  cp calculator.sh ~/GitHub/USP/usp4/
+  810  cd ~/GitHub/USP/usp4/
+  811  ls
+  812  git add --all
+  813  git commit -m "calculator"
+  814  git push
+  815  git pull
+  816  git commit -m "calculator"
+  817  git push
+  818  ls
+  819  cd UTS/USP/usp4
+  820  ls
+  821  cat cities.txt 
+  822  grep 'W' cities.txt 
+  823  grep '^W' cities.txt 
+  824  grep -i '^W' cities.txt 
+  825  grep -i '^W.*n$' cities.txt 
+  826  grep -in '^W.*n$' cities.txt 
+  827  grep -in '^W.*n$' cities.txt | wc
+  828  grep -in '^W.*n$' cities.txt 
+  829  grep -in '^W|n$' cities.txt 
+  830  grep -inE '^W|n$' cities.txt 
+  831  grep -inEc '^W|n$' cities.txt 
+  832  grep -nE '^W|n$' cities.txt 
+  833  grep -nE '^W|n$' cities.txt | wc
+  834  cat RR cities.txt 
+  835  cat -2  cities.txt 
+  836  cat -c2  cities.txt 
+  837  column cities.txt 
+  838  column cities.txt | grep 'E'
+  839  column cities.txt | grep 'e'
+  840  column cities.txt | grep 'e.*n'
+  841  column cities.txt | grep -i 'e.*n'
+  842  column cities.txt | grep -i '^e.*n'
+  843  column cities.txt | grep -i '^e|n'
+  844  column cities.txt | grep -iE '^e|n'
+  845  column cities.txt 
+  846  column cities.txt | grep '^[AB]'
+  847  cat cities.txt | grep '^[AB]'
+  848  cat cities.txt | grep '^[ABC]'
+  849  cat cities.txt | grep '^[ABCD]'
+  850  cat cities.txt | grep '^[ABCD]' | column 
+  851  cat cities.txt | grep '^[ABCD]' | column > abc.txt
+  852  cat abc.txt 
+  853  grep 'A' cities.txt 
+  854  grep -i 'A' cities.txt 
+  855  grep -i 'A' cities.txt | column
+  856  grep -i 'A' abc.txt | column
+  857  grep -i 'A' abc.txt 
+  858  grep -i '^A.*^C' abc.txt 
+  859  grep -iE '^A.*^C' abc.txt 
+  860  grep -iE '^A.*C' abc.txt 
+  861  grep -E '^A.*C' abc.txt 
+  862  grep -E '^[AC]' abc.txt 
+  863  grep  '^[AC]' abc.txt 
+  864  grep  '[AC]' abc.txt 
+  865  ls
+  866  cat usp4.txt 
+  867  grep 'tutor' usp4.txt 
+  868  grep 'tutor#' usp4.txt 
+  869  grep 'tutor\b' usp4.txt 
+  870  grep -i 'tutor\b' usp4.txt 
+  871  grep -iv 'tutor\b' usp4.txt 
+  872  grep '^$' usp4.txt 
+  873  grep -v '^$' usp4.txt 
+  874  grep -v '^$' usp4.txt > out.txt
+  875  cat out.txt 
+  876  clear
+  877  cat out.txt 
+  878  grep '#' out.txt 
+  879  grep '#.*[0-9]' out.txt 
+  880  grep '#|*[0-9]' out.txt 
+  881  egrep '#|*[0-9]' out.txt 
+  882  grep -E '#|*[0-9]' out.txt 
+  883  grep -E '#|*[0-9]{3}' out.txt 
+  884  grep -E '#|*[0-9]{3}\b' out.txt 
+  885  grep -E '#|*\b[0-9]{3}\b' out.txt 
+  886  grep -E '#|*\b[0-9]{4}\b' out.txt 
+  887  grep -E '#|\b[0-9]{4}\b' out.txt 
+  888  grep -E '#.*\b[0-9]{4}\b' out.txt 
+  889  grep -E '#|\b[0-9]{4}\b' out.txt 
+  890  grep -En '#|\b[0-9]{4}\b' out.txt 
+  891  ls
+  892  grep -r '#'
+  893  grep -rn '#'
+  894  grep -rn '#.*[0-9]'
+  895  grep -rn '#.*[0-9]{2}'
+  896  grep -rnE '#.*[0-9]{2}'
+  897  grep -rnE '#.*\b[0-9]{2}\b'
+  898  grep -rnE '#|\b[0-9]{2}\b'
+  899  grep -rnEl '#|\b[0-9]{2}\b'
+  900  grep -rnEl '#!|\b[0-9]{2}\b'
+  901  grep -rnE '#!|\b[0-9]{2}\b'
+  902  grep -rnE '#!.*\b[0-9]{2}\b'
+  903  grep -rnE '#!.*\bash\b'
+  904  grep -rnE '#!.*bash\b'
+  905  ls
+  906  cat calculator.sh 
+  907  nano calculator.sh 
+  908  ./calculator.sh 
+  909  nano calculator.sh 
+  910  ./calculator.sh 
+  911  nano calculator.sh 
+  912  ./calculator.sh 
+  913  cp calculator.sh ~/GitHub/USP/usp4
+  914  cd ~/GitHub/USP/usp4
+  915  git add calculator.sh 
+  916  git commit -m "calculator updated"
+  917  git push
+  918  ls
+  919  git rm log.txt 
+  920  ls
+  921  git add --all
+  922  git commit -m "usp4 udpate 2"
+  923  git push
+  924  cd ~/USP/usp4
+  925  ls
+  926  cd ..
+  927  ls
+  928  cat *
+  929  ls -R
+  930  cd usp4
+  931  ls
+  932  cd temp
+  933  ls
+  934  cd ..
+  935  ls
+  936  rm -rf *
+  937  ls
+  938  pwd
+  939  cd ..
+  940  ls
+  941  cd usp4
+  942  ls
+  943  cd ~/GitHub/USP/usp4
+  944  ls
+  945  git rm out.txt 
+  946  git rm calculator.sh 
+  947  cd ~/UTS/USP/usp4
+  948  ls
+  949  cp cities.txt ~/GitHub/USP/usp4
+  950  git add --all
+  951  cd ~/GitHub/USP/usp4
+  952  git add --all
+  953  git commit -m "ups4 reset"
+  954  git push
+  955  cd ~/USP/usp4
+  956  ls
+  957  pwd
+  958  nano calc.sh
+  959  chmod 774calc.sh 
+  960  chmod 764 calc.sh 
+  961  ./calc.sh 
+  962  chmod 774calc.sh 
+  963  nano calc.sh
+  964  ./calc.sh 
+  965  nano calc.sh
+  966  ./calc.sh 
+  967  nano calc.sh
+  968  ./calc.sh 
+  969  nano calc.sh
+  970  ./calc.sh 
+  971  nano calc.sh
+  972  ./calc.sh 
+  973  nano calc.sh
+  974  ./calc.sh 
+  975  nano calc.sh 
+  976  ./calc.sh 
+  977  nano calc.sh 
+  978  ./calc.sh 
+  979  nano calc.sh 
+  980  ./calc.sh 
+  981  nano calc.sh 
+  982  ./calc.sh 
+  983  nano calc.sh 
+  984  ./calc.sh 
+  985  cat calc.sh 
+  986  nano calc.sh 
+  987  cat calc.sh 
+  988  ./calc.sh 
+  989  cat calc.sh 
+  990  nano calc.sh 
+  991  cat calc.sh 
+  992  ./calc.sh 
+  993  ls
+  994  cd ..
+  995  ls
+  996  pwd
+  997  rm -r usp4
+  998  ls
+  999  clear
+ 1000  cd UTS/USP/usp4
+ 1001  ls
+ 1002  gedit &
+ 1003  clear
+ 1004  ls
+ 1005  cp usp4.txt ~/USP/usp4
+ 1006  cp cities.txt ~/USP/usp4
+ 1007  cd ~/USP/usp4
+ 1008  cd ~/USP/
+ 1009  ls
+ 1010  ls usp4
+ 1011  cat usp4
+ 1012  clear
+ 1013  rm usp4
+ 1014  ls
+ 1015  mkdir usp4
+ 1016  ls
+ 1017  clear
+ 1018  cd
+ 1019  cd ~/UTS/USP/usp4
+ 1020  cp cities.txt ~/USP/usp4
+ 1021  cp usp4.txt ~/USP/usp4
+ 1022  cd ~/USP/usp4
+ 1023  ls
+ 1024  clear
+ 1025  ls
+ 1026  cat usp4.txt 
+ 1027  grep 'tutor' usp4.txt 
+ 1028  grep -w 'tutor' usp4.txt 
+ 1029  clear
+ 1030  grep -w 'tutor' usp4.txt 
+ 1031  grep 'tutor' usp4.txt 
+ 1032  grep 'tutor\b' usp4.txt 
+ 1033  grep '\btutor\b' usp4.txt 
+ 1034  grep -i '\btutor\b' usp4.txt 
+ 1035  grep 'tutor' usp4.txt 
+ 1036  grep 'tutor\b' usp4.txt 
+ 1037  grep 'tor\b' usp4.txt 
+ 1038  grep '\btor\b' usp4.txt 
+ 1039  clear 
+ 1040  grep 'tutor' usp4.txt 
+ 1041  grep -i 'tutor' usp4.txt 
+ 1042  grep -in 'tutor' usp4.txt 
+ 1043  clear
+ 1044  cat usp4.txt 
+ 1045  grep '^$' usp4.txt 
+ 1046  grep -v '^$' usp4.txt 
+ 1047  grep '^T$' usp4.txt 
+ 1048* 
+ 1049  grep -v '^$' usp4.txt 
+ 1050  grep -v '^$' usp4.txt > out.txt
+ 1051  clear
+ 1052  ls
+ 1053  cat out.txt 
+ 1054  grep '#' out.txt 
+ 1055  grep '#.*[0-9]' out.txt 
+ 1056  grep '#.*^[0-9]' out.txt 
+ 1057  grep -E '#.*^[0-9]' out.txt 
+ 1058  grep -E '#.*[0-9]' out.txt 
+ 1059  grep -E '#.*$[0-9]' out.txt 
+ 1060  grep -E '#.*[0-9]' out.txt 
+ 1061  grep -E '#.*[0-9]{2}' out.txt 
+ 1062  grep -E '#.*[0-9]{4}' out.txt 
+ 1063  grep '#.*[0-9]{4}' out.txt 
+ 1064  grep -E '#.*[0-9]{4}' out.txt 
+ 1065  grep '#.*[0-9]{4}' out.txt 
+ 1066  grep -E '#.*[0-9]{4}' out.txt 
+ 1067  grep -E '#.*[0-9]{2}' out.txt 
+ 1068  grep -E '#|[0-9]{2}' out.txt 
+ 1069  grep -E '#|[0-9]{3,4}' out.txt 
+ 1070  grep -En '#|[0-9]{3,4}' out.txt 
+ 1071  grep -En '#|[0-9]{2,4}' out.txt 
+ 1072  grep -En '#.*[0-9]{3,4}' out.txt 
+ 1073  clear
+ 1074  ls
+ 1075  cat cities.txt 
+ 1076  column cities.txt 
+ 1077  column cities.txt | grep '^[A-D]'
+ 1078  column cities.txt | grep '[A-D]'
+ 1079  column cities.txt | grep '^[A-D]'
+ 1080  column cities.txt | grep '^[A-D]' > list.txt
+ 1081  cat list.txt 
+ 1082  clear
+ 1083  column cities.txt | grep '^[A-D]'
+ 1084  clear
+ 1085  grep '#' *
+ 1086  grep -n '#' *
+ 1087  grep -nl '#' *
+ 1088  grep -l '#' *
+ 1089  clear
+ 1090  pwd
+ 1091  cd ..
+ 1092  ls
+ 1093  pwd
+ 1094  grep -r '#'
+ 1095  clear
+ 1096  ls
+ 1097  ls -R
+ 1098  grep -r '#'
+ 1099  grep -rn '#'
+ 1100  cd usp4
+ 1101  ls'
+ 1102  ls
+ 1103  cat out.txt 
+ 1104  grep -w 'George' out.txt 
+ 1105  grep -wn 'George' out.txt 
+ 1106  grep -wn -B2 'George' out.txt 
+ 1107  grep -wn -B1 'George' out.txt 
+ 1108  grep -wn -A2 'George' out.txt 
+ 1109  grep -wn -A1 'George' out.txt 
+ 1110  grep -wn -C1 'George' out.txt 
+ 1111  grep -wn -C2 'George' out.txt 
+ 1112  history > lesson4.txt
