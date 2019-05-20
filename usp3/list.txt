@@ -2,3 +2,4 @@
 -rw-rw-r--. 1 george george 0 Mar 27 15:44 f2
 -rw-rw-r--. 1 george george 0 Mar 27 15:44 f3
 -rw-rw-r--. 1 george george 0 Mar 27 15:44 f4
+-rw-rw-r--. 1 george george 0 Mar 27 15:46 list.txt

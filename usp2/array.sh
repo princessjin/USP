@@ -1,32 +1,38 @@
 #!/bin/bash
-#Write a script that print the months of year array in 2 ways
-#Then calculate the sum of all days and the average days per year
-#Then format your output at 4 decimal points
 
-#Intialize an array
-months=(31 28 31 30 31 30 31 31 30 31 30 31)
+numbers=(1 2 3 4 5 6 7 8 9 10)
 
-#Array length
-length=${#months[@]}
+#show the contents of an array
 
-echo "Method 1: array print"
-for (( i = 0 ; i < $length ; i++ ))
+length=${#numbers[@]} #length of the array numbers
+
+echo -n "numbers --> "
+
+#print the numbers contents
+for(( i=0 ; i<$length ; i++))
 do
-	echo -n ${months[i]} " "
+	echo -n ${numbers[i]} " "
+done
+echo
+#show the even numbers of the  array
+echo -n "even numbers --> "
+for num in ${numbers[@]}  #for-each loop
+do
+	if [ $(($num%2)) == 0 ]
+	then
+		echo -n $num " "
+	fi
 done
 echo
 
+#show the sum of the array numbers
 sum=0
 
-echo "Method 2: array print"
-for i in ${months[@]}
+for num in ${numbers[@]}
 do
-	echo -n $i " "
-	let sum=$sum+$i
+	let sum=$sum+$num
 done
-echo
-echo "Total days per year = $sum"
+echo "Sum = $sum"
 
-average=$(echo "scale=6; $sum/$length" | bc )
-
-echo "Average days per year = $average"
+average=$(echo "scale=4;$sum/$length" | bc)
+echo "Average = $average"

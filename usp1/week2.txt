@@ -1,0 +1,1003 @@
+  116  cd ~/sketchbook/Labs/
+  117  ls
+  118  cd Lab8
+  119  cd Practice/
+  120  ls
+  121  processing Practice.pde 
+  122  cd ..
+  123  ls
+  124  cd GradesGraph/
+  125  ls
+  126  cd BitBucket/
+  127  ls
+  128  cd dev-repo/
+  129  ls
+  130  git pull
+  131  git merge
+  132  git stash 
+  133  git pull
+  134  git merge
+  135  git fetch --all
+  136  git reset --hard origin/master
+  137  git pull
+  138  ls
+  139  cd maven-app-heroku/
+  140  ls
+  141  cd BitBucket/dev-repo/
+  142  git pull
+  143  git fetch --all
+  144  git reset --hard origin/master
+  145  git pull
+  146  ls
+  147  cd sketchbook/
+  148  ls
+  149  cd Labs/Lab8
+  150  ls
+  151  cd Practice/
+  152  ls
+  153  processing Practice.pde 
+  154  ls
+  155  cd
+  156  ls
+  157  cd UTS/
+  158  ls
+  159  cd USP/
+  160  ls
+  161  cd perl1
+  162  ls
+  163  cat args.pl 
+  164  ls
+  165  cat calc.pl 
+  166  ls
+  167  nano calc.pl 
+  168  nano demo.pl 
+  169  cd demo
+  170  ls
+  171  nano copy.pl 
+  172  nano calc.pl 
+  173  nano max.pl 
+  174  nano test.pl 
+  175  nano secret.pl 
+  176  ls
+  177  cd ..
+  178  cd demo2
+  179  ls
+  180  cat calc.pl 
+  181  cd ..
+  182  ls
+  183  rm -rf demo2
+  184  ls
+  185  cat move.pl 
+  186  ls
+  187  nano numtest.pl 
+  188  cd ~/sketchbook/Labs/Lab8/GradesGraph/
+  189  processing GradesGraph.pde 
+  190  ls
+  191  cd USP
+  192  ls
+  193  mkdir perl1
+  194  cd perl1/
+  195  ls
+  196  clear
+  197  nano welcome.pl
+  198  chmod u+x welcome.pl 
+  199  ./welcome.pl 
+  200  nano copy.pl
+  201  chmod u+x copy.pl 
+  202  ls
+  203  ./copy.pl welcome.pl 
+  204  ls
+  205  chmod u+x grades.pl 
+  206  ./grades.pl 
+  207  nano grades.pl 
+  208  ./grades.pl 
+  209  nano grades.pl 
+  210  ./grades.pl 
+  211  ./grades.pl 55
+  212  nano copy.pl 
+  213  ./copy.pl grades.pl grades.txt
+  214  ls
+  215  cat *.txt
+  216  chmod u+x grades.txt
+  217  ./grades.txt
+  218  ./grades.txt 66
+  219  nano copy.pl 
+  220  ls
+  221  nano average.pl
+  222  chmod u+x average.pl 
+  223  ./average.pl 
+  224  nano average.pl
+  225  ./average.pl 
+  226  clear
+  227  ./average.pl 
+  228  nano average.pl
+  229  ./average.pl 
+  230  nano average.pl
+  231  ./average.pl 
+  232  nano average.pl
+  233  ./average.pl 
+  234  nano average.pl
+  235  ./average.pl 
+  236  nano average.pl
+  237  ./average.pl 
+  238  nano average.pl
+  239  ./average.pl 
+  240  nano average.pl
+  241  ./average.pl 
+  242  nano average.pl
+  243  ./average.pl 
+  244  nano average.pl
+  245  ./average.pl 
+  246  nano average.pl
+  247  ./average.pl 
+  248  nano average.pl
+  249  nano secret.pl
+  250  chmod u+x secret.pl 
+  251  ./secret.pl 
+  252  chmod u+x secret.pl 
+  253  nano secret.pl
+  254  ./secret.pl 
+  255  ls
+  256  nano copy.pl 
+  257  cd ..
+  258  ls
+  259  rm -rf perl1/
+  260  ls
+  261  exit
+  262  ls
+  263  cd USP
+  264  ls
+  265  mkdir perl1
+  266  ls
+  267  cd perl1
+  268  nano welcome.pl
+  269  chmod u+x welcome.pl 
+  270  ./welcome.pl 
+  271  nano welcome.pl
+  272  ./welcome.pl 
+  273  clear
+  274  ./welcome.pl 
+  275  nano welcome.pl
+  276  ./welcome.pl 
+  277  nano copy.pl
+  278  chmod u+x copy.pl 
+  279  ./copy.pl welcome.pl grades.txt
+  280  ls
+  281  cat grades.txt 
+  282  chmod u+x grades.txt 
+  283  ls
+  284  clear
+  285  ls
+  286  ./grades.txt 
+  287  cat grades.txt 
+  288  ls
+  289  nano grades.txt 
+  290  ./grades.txt 66
+  291  ls
+  292  nano copy.pl 
+  293  ls
+  294  nano grades.txt 
+  295  clear
+  296  ls
+  297  nano average.pl
+  298  chmod u+x average.pl 
+  299  ./average.pl 
+  300  nano average.pl
+  301  clear
+  302  ./average.pl 
+  303  nano average.pl
+  304  ./average.pl 
+  305  nano average.pl
+  306  ./average.pl 
+  307  nano average.pl
+  308  clear
+  309  ./average.pl 
+  310  nano average.pl
+  311  clear
+  312  nano secret.pl
+  313  chmod secret.pl 
+  314  chmod u+x secret.pl 
+  315  ./secret.pl 
+  316  nano secret.pl
+  317  clear
+  318  ./secret.pl 
+  319  nano secret.pl
+  320  ./secret.pl 
+  321  history > perl1.txt
+  322  cat perl1.txt 
+  323  clear
+  324  ls
+  325  lear
+  326  clear
+  327  ls
+  328  cd ..
+  329  ls
+  330  cd
+  331  ls
+  332  clear
+  333  cd GitHub/
+  334  ls
+  335  cd USP/
+  336  ls
+  337  cp ~/USP/perl1/ * ~/GitHub/USP/
+  338  ls
+  339  cp ~/USP/perl1/ -R * ~/GitHub/USP/
+  340  cd 
+  341  ls
+  342  cd USP/perl1/
+  343  ls
+  344  cd ..
+  345  cp -R perl1/ ~/GitHub/USP/
+  346  cd 
+  347  cd GitHub/USP/
+  348  ls
+  349  git add --all
+  350  git commit -m "perl 1"
+  351  git push
+  352  cd NetBeansProjects/WSD-Assignment-Spr2017/
+  353  ls
+  354  cd build/
+  355  ls
+  356  cd web/WEB-INF
+  357  ls
+  358  pwd
+  359  cd Downloads/
+  360  ls
+  361  mv Demo-*.zip ~/NetBeansProjects/ZIP/
+  362  ls
+  363  rm *.zip
+  364  ls
+  365  rm Share\ \'31284\ Assessor\ Approval\ \(Generic\)\ -\ Central\ Exam\ Master\ Submission\ Databee\ v20171211.docx\' 
+  366  ls
+  367  cd BitBucket/
+  368  ls
+  369  cd dev-repo/
+  370  ls
+  371  cd maven-app-heroku/
+  372  ls
+  373  git add --all
+  374  git commit -m "DRA app update 3.2"
+  375  git push
+  376  git push -f
+  377  processing
+  378  cd NetBeansProjects/WSD-Assignment-Spr2017/build/web/WEB-INF/
+  379  ls
+  380  pwd
+  381  cd Downloads/
+  382  ls
+  383  mv *.zip ~/GitHub/Processing
+  384  cd ~/GitHub/Processing
+  385  ls
+  386  mkdir Lab9
+  387  mv *.zip Lab9
+  388  ls
+  389  git add --all
+  390  git commit -m "Lab9"
+  391  git push
+  392  cd ~/Downloads/
+  393  ls
+  394  mv *.zip ~/sketchbook/Labs/
+  395  cd sketchbook/Labs/Labab9
+  396  cd sketchbook/Labs/Lab9
+  397  ls
+  398  cd ImageViewer/
+  399  ls
+  400  processing ImageViewer.pde 
+  401  cd ~/sketchbook/Labs/Lab9
+  402  ls
+  403  cd Practice/
+  404  ls
+  405  processing Practice.pde 
+  406  cd ~/sketchbook/Labs/Lab9
+  407  cd ImageViewer/
+  408  processing ImageViewer.pde 
+  409  cd UTS/USP/perl2/demo
+  410  cd
+  411  ls
+  412  cd UTS/USP/perl2/demo
+  413  ls
+  414  nano series.pl 
+  415  ls
+  416  nano transform.pl 
+  417  ls
+  418  nano search.pl 
+  419  nano binary.pl 
+  420  ls
+  421  cd UTS/USP/perl2
+  422  ls
+  423  ./addingremoving.pl 
+  424  ls
+  425  cd demo/
+  426  ls
+  427  ./series.pl 
+  428  ls
+  429  nano series.pl 
+  430  ./search.pl 
+  431  ./search.pl Tim
+  432  ./search.pl Kim
+  433  ./search.pl Alice
+  434  ./search.pl 4
+  435  nano search.pl 
+  436  ls
+  437  ./transform.pl 
+  438  nano transform.pl 
+  439  ls
+  440  nano binary.pl 
+  441  ./binary.pl 
+  442  nano binary.pl 
+  443  ls
+  444  cd ..
+  445  ls
+  446  ./swap.pl 
+  447  ls
+  448  cd 
+  449  ls
+  450  cd USP
+  451  ls
+  452  mkdir perl2
+  453  cd perl2
+  454  ls
+  455  clear
+  456  nano series.pl
+  457  chmod u+x *
+  458  ./series.pl 
+  459  ls
+  460  nano series.pl 
+  461  ./series.pl 
+  462  nano series.pl 
+  463  ./series.pl 
+  464  nano series.pl 
+  465  ./series.pl 
+  466  nano series.pl 
+  467  ./series.pl 
+  468  nano series.pl clear
+  469  clear
+  470  ls
+  471  nano series.pl 
+  472  ./series.pl 
+  473  nano series.pl 
+  474  ./series.pl 
+  475  nano series.pl 
+  476  ./series.pl 
+  477  nano series.pl 
+  478  ./series.pl 
+  479  nano series.pl 
+  480  ./series.pl 
+  481  nano series.pl 
+  482  ./series.pl 
+  483  nano series.pl 
+  484  ./series.pl 
+  485  nano series.pl 
+  486  ./series.pl 
+  487  nano series.pl 
+  488  ./series.pl 
+  489  nano series.pl 
+  490  ./series.pl 
+  491  nano series.pl 
+  492  ./series.pl 
+  493  nano series.pl 
+  494  ./series.pl 
+  495  nano series.pl 
+  496  ./series.pl 
+  497  nano series.pl 
+  498  ./series.pl 
+  499  nano series.pl 
+  500  ./series.pl 
+  501  nano series.pl 
+  502  ./series.pl 
+  503  nano series.pl 
+  504  ./series.pl 
+  505  nano series.pl 
+  506  ./series.pl 
+  507  nano series.pl 
+  508  ./series.pl 
+  509  nano series.pl 
+  510  ./series.pl 
+  511  nano series.pl 
+  512  ./series.pl 
+  513  nano series.pl 
+  514  ./series.pl 
+  515  nano series.pl 
+  516  ./series.pl 
+  517  nano series.pl 
+  518  ./series.pl 
+  519  nano series.pl 
+  520  ./series.pl 
+  521  nano series.pl 
+  522  clear
+  523  nano transform.pl
+  524  chmod u+x transform.pl 
+  525  ./transform.pl 
+  526  nano search.pl
+  527  chmod u+x search.pl 
+  528  ./search.pl 
+  529  nano search.pl
+  530  ./search.pl 
+  531  ./transform.pl 
+  532  nano search.pl
+  533  ./search.pl 
+  534  nano search.pl
+  535  ./search.pl 
+  536  nano search.pl
+  537  clear
+  538  ls
+  539  cd ..
+  540  ls
+  541  rm -rf perl2
+  542  ls
+  543  exit
+  544  ls
+  545  cd USP
+  546  ls
+  547  mkdir perl2
+  548  cd perl2
+  549  pwd
+  550  clear
+  551  nano series.pl
+  552  ls
+  553  chmod u+x series.pl 
+  554  ./series.pl 
+  555  chmod u+x series.pl 
+  556  nano series.pl
+  557  clear
+  558  ./series.pl 
+  559  nano series.pl
+  560  ./series.pl 
+  561  nano series.pl
+  562  ./series.pl 
+  563  nano series.pl
+  564  clear
+  565  ./series.pl 
+  566  nano series.pl
+  567  ./series.pl 
+  568  nano series.pl
+  569  ./series.pl 
+  570  nano series.pl
+  571  ./series.pl 
+  572  nano series.pl
+  573  clear
+  574  ./series.pl 
+  575  nano series.pl
+  576  ./series.pl 
+  577  nano series.pl
+  578  ls
+  579  clear
+  580  nano transform.pl
+  581  chmod u+x transform.pl 
+  582  ./transform.pl 
+  583  nano transform.pl
+  584  ./transform.pl 
+  585  clear
+  586  nano binary.pl
+  587  chmod u+x binary.pl 
+  588  ./binary.pl 
+  589  nano binary.pl
+  590  ./binary.pl 
+  591  nano binary.pl
+  592  ./binary.pl 
+  593  nano binary.pl
+  594  clear
+  595  ./binary.pl 
+  596  nano binary.pl
+  597  clear
+  598  ./binary.pl 
+  599  nano binary.pl
+  600  nano search.pl
+  601  chmod u+x search.pl 
+  602  ./search.pl 
+  603  chmod u+x search.pl 
+  604  nano search.pl
+  605  ./search.pl 
+  606  nano search.pl
+  607  clear
+  608  ./search.pl 
+  609  nano search.pl
+  610  ./search.pl 
+  611  nano search.pl
+  612  ./search.pl 
+  613  nano search.pl
+  614  ./search.pl 
+  615  nano search.pl
+  616  ./search.pl 
+  617  clear
+  618  ./search.pl 
+  619  nano search.pl
+  620  ./search.pl 
+  621  nano search.pl
+  622  ./search.pl 
+  623  nano search.pl
+  624  ./search.pl 
+  625  ls
+  626  clear
+  627  cd
+  628  ls
+  629  cd UTS/USP
+  630  ls
+  631  cd perl2
+  632  cd demo
+  633  ls
+  634  nano search.pl 
+  635  ls
+  636  cd 
+  637  ls
+  638  cd UTS/USP
+  639  ls
+  640  cp -R perl2 ~/GitHub/USP/
+  641  cd ~/GitHub/USP/
+  642  ls
+  643  git add --all
+  644  git commit -m "perl 2"
+  645  git push
+  646  exit
+  647  cd ~/NetBeansProjects/WSD-Assignment-Spr2017/build/web/WEB-INF/
+  648  ls
+  649  cat bookings.xml
+  650  cd
+  651  ls
+  652  cd NetBeansProjects/
+  653  ls
+  654  cp -R WSD-Assignment-Spr2017/ ~/GitHub/WSD
+  655  cd ~/GitHub/WSD/
+  656  ls
+  657  git add --all
+  658  git commit -m "AssignApr2017"
+  659  git push
+  660  git add --all
+  661  git commit -m "AssignApr2017"
+  662  git push
+  663  git push -f
+  664  ls
+  665  cd ~/sketchbook/Labs/
+  666  ls
+  667  cp -R Lab9 ~/GitHub/Processing/
+  668  cd ~/GitHub/Processing/
+  669  ls
+  670  git add --all
+  671  git commit -m "Lab9 updated"
+  672  git push
+  673  cd
+  674  cd UTS/USP/perl3
+  675  ls
+  676  cd math/
+  677  ls
+  678  nano math.pl 
+  679  nano operations.pl 
+  680  cd ..
+  681  ls
+  682  cat rectangle.pl 
+  683  ls
+  684  cd UTS/USP/perl3
+  685  ls
+  686  nano hello.pl 
+  687  nano names.pl 
+  688  nano sort.pl 
+  689  nano demo/
+  690  ls
+  691  cd demo/
+  692  ls
+  693  nano ops.pl 
+  694  nano main.pl 
+  695  ls
+  696  ./main.pl 
+  697  ls
+  698  nano main.pl 
+  699  ./main.pl 3 4
+  700  ls
+  701  nano main.pl 
+  702  nano ops.pl 
+  703  nano main.pl 
+  704  cd ..
+  705  ls
+  706  nano names.pl
+  707  nano sort.pl 
+  708  nano universityv2.pl 
+  709  nano rectangle.pl 
+  710  ls
+  711  nano names.pl 
+  712  ls
+  713  cd 
+  714  cd USP/perl3
+  715  ls
+  716  nano ops.pl 
+  717  ls
+  718  nano ops.pl 
+  719  ls
+  720  nano main.pl
+  721  cd
+  722  ls
+  723  cd USP
+  724  ls
+  725  mkdir perl3
+  726  cd perl3
+  727  ls
+  728  pwd
+  729  clear
+  730  nano ops.pl
+  731  nano ops.pl 
+  732  nano calc.pl
+  733  nano util.pl
+  734  ls
+  735  chmod u+x *
+  736  ls
+  737  cat calc.pl 
+  738  rm calc.pl 
+  739  ./main.pl 
+  740  pwd
+  741  ./main.pl 
+  742  nano util.pl 
+  743  ./main.pl 
+  744  nano util.pl 
+  745  ./main.pl 
+  746  nano util.pl 
+  747  ./main.pl 
+  748  ls
+  749  cd ..
+  750  ls
+  751  rm -rf perl3
+  752  ls
+  753  exit
+  754  cd
+  755  ls
+  756  cd USP
+  757  ls
+  758  mkdir perl3
+  759  cd perl3
+  760  clear
+  761  ls
+  762  nano ops.pl
+  763  nano util.pl
+  764  nano main.pl
+  765  nano util.pl
+  766  nano main.pl
+  767  ls
+  768  chmod u+x *
+  769  nano main.pl
+  770  ./main.pl 
+  771  nano main.pl
+  772  ./main.pl 
+  773  cd 
+  774  cd USP
+  775  ls
+  776  cp -R perl3 ~/GitHub/USP/
+  777  cd ~/GitHub/USP/
+  778  ls
+  779  git add --all
+  780  git commit -m "perl3"
+  781  git push
+  782  clear
+  783  ./main.pl 
+  784  ls
+  785  cd perl3
+  786  ls
+  787  ./main.pl 
+  788  ls
+  789  nano main.pl 
+  790  exit
+  791  ls
+  792  cd NetBeansProjects/
+  793  ls
+  794  cp -R AppProg-lab11-base/ ~/GitHub/AppProg/
+  795  cd ~/GitHub/AppProg/
+  796  ls
+  797  git add --all
+  798  git commit -m "Lab 11 base updated"
+  799  git push
+  800  git push -f
+  801  ls
+  802  rm -r USP
+  803  ls
+  804  cd rpmbuild/
+  805  ls
+  806  cd ..
+  807  ls
+  808  ls Templates/
+  809  ls Documents/
+  810  ls Music/
+  811  ls Pictures/
+  812  cd Downloads/
+  813  ls
+  814  cd ~/Net
+  815  cd ~/NetBeansProjects/
+  816  ls
+  817  ls JARs/
+  818  mkdir plugins
+  819  ls
+  820  mv ~/Downloads/1395677253_NodeJS-2.2-SNAPSHOT.nbm ~/NetBeansProjects/plugins/
+  821  ls
+  822  cd
+  823  ls
+  824  cd /
+  825  ls
+  826  ls -a
+  827  cd
+  828  ls
+  829  ls -a
+  830  pwd
+  831  ls -al
+  832  cd .netbeans
+  833  ls
+  834  cd 8.1
+  835  ls
+  836  ls sources
+  837  cd ~/NetBeansProjects/
+  838  mv plugins/ ~/.netbeans
+  839  cd ~/.netbeans
+  840  ls
+  841  mv plugins/ 8.1/
+  842  ls 8.1
+  843  ls
+  844  cd Downloads/
+  845  ls
+  846  sudo dnf install ./atom.x86_64.rpm 
+  847  atom
+  848  ./start_pipe.sh 
+  849  java -version
+  850  ls
+  851  ls Downloads/
+  852  cd Downloads/
+  853  rm *
+  854  ls
+  855  cd ..
+  856  ls
+  857  cd UTS
+  858  ls
+  859  ls - R
+  860  ls -R
+  861  ls
+  862  ls AppProg/
+  863  ls SEP
+  864  rm SEP
+  865  rm -f SEP
+  866  rm -r SEP
+  867  ls
+  868  cd PHP
+  869  ls PHD
+  870  cd ..
+  871  ls
+  872  cd UTS
+  873  exit
+  874  ls
+  875  cd GitHub/
+  876  ls
+  877  git clone https://github.com/Georges034302/ISD.git
+  878  ls ISD/
+  879  exit
+  880  ls
+  881  cd GitHub/
+  882  ls
+  883  cd ISD/
+  884  git pull
+  885  ls
+  886  cp -R ISD-Demo/ ~/NetBeansProjects/
+  887  cd
+  888  ls
+  889  ./netbeans.sh 
+  890  sudo netstat -nlp | grep :1527
+  891  exit
+  892  pwd
+  893  cd
+  894  cd /
+  895  pwd
+  896  cd 
+  897  pwd
+  898  ls
+  899  cd Downloads/
+  900  ls
+  901  gedit ~/.bashrc
+  902  cd
+  903  jps
+  904  startNetworkServer - h 0.0.0.0 &
+  905  javac -version
+  906  sudo apt update; sudo apt install oracle-java-8-installer
+  907  gedit ~/.bashrc
+  908  ls
+  909  cd Downloads/
+  910  ls
+  911  rm -rf *
+  912  ls
+  913  pwd
+  914  cd ..
+  915  ls
+  916  cd /
+  917  ls
+  918  cd usr/local/
+  919  ls
+  920  cd lib
+  921  ls
+  922  cd ..
+  923  ls
+  924  cd netbeans-8.1/
+  925  ls
+  926  cd ..
+  927  l
+  928  ls
+  929  cd ..
+  930  ls
+  931  cd lib
+  932  ls
+  933  cd
+  934  ls
+  935  ls -a
+  936  nano .netbeans-derby/
+  937  cd .netbeans-derby/
+  938  ls
+  939  gedit &
+  940  yum install gcc
+  941  su 
+  942  ls
+  943  cd UTS
+  944  ls
+  945  mkdir Python
+  946  cd Python
+  947  ls
+  948  pwd
+  949  nano test.py
+  950  chmod u+x test.py 
+  951  python test.py 
+  952  python --version
+  953  nano test.py 
+  954  python test.py 
+  955  nano test.py 
+  956  python test.py 
+  957  nano test.py 
+  958  python test.py 
+  959  nano test.py 
+  960  python test.py 
+  961  nano test.py 
+  962  python3.5 test.py 
+  963  python3.5 test.py john
+  964  nano test.py 
+  965  python3.5 test.py john
+  966  nano test.py 
+  967  python3.5 test.py john
+  968  nano test.py 
+  969  python3.5 test.py john
+  970  nano test.py 
+  971  python3.5 test.py 6
+  972  nano test.py 
+  973  python3.5 test.py 6
+  974  python3.5 test.py 0
+  975  nano max.py
+  976  chmod u+x max.py 
+  977  ./max.py 
+  978  python3.5 max.py 
+  979  nano max.py
+  980  python3.5 max.py 
+  981  nano max.py
+  982  python3.5 max.py 
+  983  nano max.py
+  984  python3.5 max.py 
+  985  nano max.py
+  986  python3.5 max.py 
+  987  nano max.py
+  988  python3.5 max.py 
+  989  4
+  990  5
+  991  python3.5 max.py 
+  992  nano max.py
+  993  python3.5 max.py 
+  994  nano max.py
+  995  python3.5 max.py 
+  996  nano max.py
+  997  python3.5 max.py 
+  998  exit
+  999  ls
+ 1000  clear
+ 1001  man ls
+ 1002  man pwd
+ 1003  ls
+ 1004  mkdir USP
+ 1005  ls
+ 1006  cd USP
+ 1007  pwd
+ 1008  mkdir sub1 sub2 sub3
+ 1009  ls
+ 1010  clear
+ 1011  ls
+ 1012  ls -l
+ 1013  ls
+ 1014  touch f1
+ 1015  ls
+ 1016  ls -l
+ 1017  ls -al
+ 1018  clear
+ 1019  touch f2 f3 f4
+ 1020  ls
+ 1021  touch f11 f22 f33 
+ 1022  ls
+ 1023  touch f1a f1b f1c
+ 1024  ls
+ 1025  touch faa fbb fcc
+ 1026  ls
+ 1027  touch fa1 fa2 fa3
+ 1028  ls
+ 1029  cp f1 sub1
+ 1030  ls sub1
+ 1031  ls
+ 1032  mv f1 sub1
+ 1033  ls
+ 1034  ls sub1
+ 1035  clear
+ 1036  ls
+ 1037  mv f[0-9] sub1
+ 1038  ls
+ 1039  ls sub1
+ 1040  ls
+ 1041  touch fa fb fc
+ 1042  ls
+ 1043  mv f[a-z] sub1
+ 1044  ls sub1
+ 1045  ls
+ 1046  cp ~/USP/
+ 1047  cp ~/USP/sub1/* .
+ 1048  ls
+ 1049  clear
+ 1050  ls
+ 1051  cp ~/USP/sub1/* .
+ 1052  ls
+ 1053  ls subb1
+ 1054  ls sub1
+ 1055  cd sub1
+ 1056  ls
+ 1057  rm f[0-9]
+ 1058  ls
+ 1059  rm *
+ 1060  ls
+ 1061  cd ..
+ 1062  ls
+ 1063  clear
+ 1064  ls
+ 1065  mv f? sub1
+ 1066  ls
+ 1067  ls sub1
+ 1068  ls
+ 1069  mv f[0-9][0-9] sub2
+ 1070  ls sub2
+ 1071  ls
+ 1072  mv f[a-z]([0-9]|[a-z]) sub3
+ 1073  mv f[a-z]*([0-9]|[a-z]) sub3
+ 1074  ls sub3
+ 1075  mv f[a-z]? sub3
+ 1076  ls
+ 1077  rm f*
+ 1078  ls
+ 1079  clear
+ 1080  ls
+ 1081  ls -R
+ 1082  ls
+ 1083  rmdir sub1
+ 1084  rm -r sub1
+ 1085  ls
+ 1086  rm -rf *
+ 1087  ls
+ 1088  pwd
+ 1089  clear
+ 1090  pwd
+ 1091  echo n
+ 1092  n=2
+ 1093  echo n
+ 1094  echo $n
+ 1095  echo "$n"
+ 1096  echo '$n'
+ 1097  echo "$n"
+ 1098  echo \"$n\"
+ 1099  echo \'$n\'
+ 1100  echo \$n
+ 1101  echo \\$n
+ 1102  clear
+ 1103  echo $n
+ 1104  echo $n+2
+ 1105  echo ($n+2)
+ 1106  echo $($n+2)
+ 1107  echo $(($n+2))
+ 1108  echo $(($n+2)+($n*2))
+ 1109  echo $((($n+2)+($n*2)))
+ 1110  unset n
+ 1111  echo $n
+ 1112  history > week2.txt
+ 1113  cat week2.txt 
+ 1114  clear
+ 1115  export HISTSIZE=10000
+ 1116  export HISTFILESIZE=10000
+ 1117  echo $HISTSIZE
+ 1118  history > week2.txt

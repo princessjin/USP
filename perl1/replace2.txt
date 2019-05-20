@@ -1,0 +1,7 @@
+total AAA
+-rwxrw-r--. 1 george george AAA May  6 AAA:AAA average.pl
+-rwxrw-r--. 1 george george AAA May  6 AAA:AAA copy.pl
+-rwxrw-r--. 1 george george AAA May  6 AAA:AAA grades.pl
+-rwxrw-r--. 1 george george AAA May  6 AAA:AAA incdec.pl
+-rw-rw-r--. 1 george george   0 May  6 AAA:AAA list.txt
+-rwxrw-r--. 1 george george AAA May  6 AAA:AAA welcome.pl

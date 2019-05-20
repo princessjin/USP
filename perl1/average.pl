@@ -1,23 +1,19 @@
 #!/bin/perl
-#Calculate the maximum number of values from user input and calculate
-#the average at 3 decimal points. Stop when value = -1
+#Enter a value until -1. Add all values and show the sum and average
 
-print "Number = "; $num=<STDIN>; chomp($num); #read pattern
+print "Value = ";$val=<STDIN>;chomp($val);
 $sum=0;
-$max=0;
-$average=0;
 $count=0;
 
-while ($num ne -1){
-	$sum+=$num; #adding number
-	if($num > $max){ $max = $num; } #updating max
+while($val != -1){
+	$sum += $val;
 	$count++;
-	print"Number= "; $num=<STDIN>; chomp($num);
+	print "Value = ";$val=<STDIN>;chomp($val);
 }
-
-print "After $count iterations \n";
-print "Max = $max \n";
-print "Sum = $sum \n";
-if($count > 0){ $average = $sum/$count;}
-
-printf "Average = %4.3f \n", $average;
+print "Sum = $sum \n\n";
+if($count > 0){
+	$average = $sum/$count;
+	printf "Average = %3.3f \n\n",$average;
+}else {
+	print "Average = zero \n\n";
+}

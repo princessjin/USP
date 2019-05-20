@@ -1,21 +1,45 @@
 #!/bin/perl
-#Define the following subroutines:
-#1- Read pattern
-#2- Genrate random array of size 10
 
-sub readChoice{
-	print "Enter any key to continue (x to exit): ";
-	my $choice = <STDIN>;
-	chomp($choice);
-	return $choice;
+#Define a read-pattern function that reads a number from STDIN
+sub readInt{
+	print "Number = ";
+	$num=<STDIN>;
+	chomp($num);
+	return $num;
 }
 
-sub generate{
+#Generate a random array of integers 0-100 size = 20
+sub generateArray{
 	my @nums;
-	for($i=0; $i < 10; $i++){
-		@nums[$i] = 1+int(rand(100));
+	for($i=0; $i<20; $i++){
+		push(@nums,int(1+rand(100)));
 	}
-	return @nums;	
+	return @nums;
+}
+
+#Calculate the sum of array-numbers
+sub sum{
+	my $sum=0;
+	my @nums = @_;
+	foreach $e (@nums){
+		$sum += $e;
+	}
+	return $sum;
+}
+
+#define a function average of array-numbers
+sub average{
+	@nums = @_;
+	return sum(@nums)/scalar(@nums);
 }
 
 1
+
+
+
+
+
+
+
+
+

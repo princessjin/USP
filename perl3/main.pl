@@ -1,26 +1,24 @@
 #!/bin/perl
-#Loop until x is entered and calculate the following functions of a random array
-#1- Max
-#2- Sum
-#3- Average
 
-
+require "/home/george/USP/perl3/math.pl";
 require "/home/george/USP/perl3/util.pl";
-require "/home/george/USP/perl3/ops.pl";
-run();
 
-sub run{
-	my @nums = generate();
-	my $choice = readChoice();
+$a = readInt();
+$b = readInt();
 
-	while ($choice ne x){
-		print "Array = (@nums) \n";
-		print "Max = ",max(@nums),"\n";
-		print "Sum = ",sum(@nums),"\n";
-		print "Average = ", average(@nums),"\n";
-		@nums = generate();
-		$choice = readChoice();
-	}
+print "$a + $b = ",add($a,$b),"\n";
+print "$a - $b = ",subtract($a,$b),"\n";
+print "$a * $b = ",mul($a,$b),"\n";
+print "$a / $b = ",div($a,$b),"\n";
+print "Factorial($a) = ",factorial($a),"\n";
+print "Factorial($b) = ",factorial($b),"\n";
 
-	print "\n THANK YOU \n\n";
-}
+@nums = generateArray();
+
+print"Array Sum = ",sum(@nums),"\n";
+printf "Array Average = %3.3f \n",average(@nums);
+print"\n";
+
+
+
+

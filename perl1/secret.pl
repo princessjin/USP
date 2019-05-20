@@ -1,16 +1,19 @@
 #!/bin/perl
-#Guess a random number from user input
+#find a secret random number between 0-100
 
-$r = int(1+ rand(100));
-print "Number = "; $num=<STDIN>; chomp($num); #read pattern
+$random = 1+ int(rand(99));
 
-while($num ne $r){
-	if($num < $r){
-		print "The secret number is higher than $num\n";
-	}elsif($num > $r){
-		print "The secret number is lower than $num \n";
+print "Guess = ";$num=<STDIN>;chomp($num);
+
+while($num != $random){
+	if($num > $random){
+		print "$num is greater than secret \n"; 
+	}elsif($num < $random){
+		print "$num is less than secret \n";
 	}
-	print "Number = "; $num=<STDIN>; chomp($num);
+
+	print "Guess = ";$num=<STDIN>;chomp($num);
+
 }
 
-print "Correct answer $num \n";
+print "\n Secret = $num \n";

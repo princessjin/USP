@@ -1,9 +1,14 @@
 #!/bin/perl
-#Copy file from argument to another from argument
+#copy a file from argument into a new filename from stdin
 
-open (INFILE, $ARGV[0]) || die "Cannot open file: $! \n";
-open (OUTF, "> $ARGV[1]") || die "Cannot create file: $! \n";
+$in = $ARGV[0];
+
+print "New file: ";$out=<STDIN>;chomp($out);
+
+open (INFILE, "<$in") || die "Cannot open $in: $! \n";
+open (OUTF, ">$out") or die "Cannot create $out: $! \n";
 
 while(<INFILE>){
 	print OUTF $_;
 }
+

@@ -1,0 +1,93 @@
+Aberdeen		Greensboro		Oxnard
+Abilene			Greenville		Palm Bay
+Akron			Gulfport-Biloxi		Palm Springs
+Albany			Hagerstown		Palmdale
+Albuquerque		Hampton			Panama City
+Alexandria		Harlingen		Pasadena
+Allentown		Harrisburg		Paterson
+Amarillo		Hartford		Pembroke Pines
+Anaheim			Havre de Grace		Pensacola
+Anchorage		Hayward			Peoria
+Ann Arbor		Hemet			Philadelphia
+Antioch			Henderson		Phoenix
+Apple Valley		Hesperia		Pittsburgh
+Appleton		Hialeah			Plano
+Arlington		Hickory			Pomona
+Arvada			High Point		Pompano Beach
+Asheville		Hollywood		Port Arthur
+Athens			Honolulu		Port Orange
+Atlanta			Houma			Port Saint Lucie
+Atlantic City		Houston			Port St. Lucie
+Augusta			Howell			Portland
+Aurora			Huntington		Portsmouth
+Austin			Huntington Beach	Poughkeepsie
+Bakersfield		Huntsville		Providence
+Baltimore		Independence		Provo
+Barnstable		Indianapolis		Pueblo
+Baton Rouge		Inglewood		Punta Gorda
+Beaumont		Irvine			Racine
+Bel Air			Irving			Raleigh
+Bellevue		Jackson			Rancho Cucamonga
+Berkeley		Jacksonville		Reading
+Bethlehem		Jefferson		Redding
+Billings		Jersey City		Reno
+Birmingham		Johnson City		Richland
+Bloomington		Joliet			Richmond
+Boise			Kailua			Richmond County
+Boise City		Kalamazoo		Riverside
+Bonita Springs		Kaneohe			Roanoke
+Boston			Kansas City		Rochester
+Boulder			Kennewick		Rockford
+Bradenton		Kenosha			Roseville
+Bremerton		Killeen			Round Lake Beach
+Bridgeport		Kissimmee		Sacramento
+Brighton		Knoxville		Saginaw
+Brownsville		Lacey			Saint Louis
+Bryan			Lafayette		Saint Paul
+Buffalo			Lake Charles		Saint Petersburg
+Burbank			Lakeland		Salem
+Burlington		Lakewood		Salinas
+Cambridge		Lancaster		Salt Lake City
+Canton			Lansing			San Antonio
+Cape Coral		Laredo			San Bernardino
+Carrollton		Las Cruces		San Buenaventura
+Cary			Las Vegas		San Diego
+Cathedral City		Layton			San Francisco
+Cedar Rapids		Leominster		San Jose
+Champaign		Lewisville		Santa Ana
+Chandler		Lexington		Santa Barbara
+Charleston		Lincoln			Santa Clara
+Charlotte		Little Rock		Santa Clarita
+Chattanooga		Long Beach		Santa Cruz
+Chesapeake		Lorain			Santa Maria
+Chicago			Los Angeles		Santa Rosa
+Chula Vista		Louisville		Sarasota
+Cincinnati		Lowell			Savannah
+Clarke County		Lubbock			Scottsdale
+Clarksville		Macon			Scranton
+Clearwater		Madison			Seaside
+Cleveland		Manchester		Seattle
+College Station		Marina			Sebastian
+Colorado Springs	Marysville		Shreveport
+Columbia		McAllen			Simi Valley
+Columbus		McHenry			Sioux City
+Concord			Medford			Sioux Falls
+Coral Springs		Melbourne		South Bend
+Corona			Memphis			South Lyon
+Corpus Christi		Merced			Spartanburg
+Costa Mesa		Mesa			Spokane
+Dallas			Mesquite		Springdale
+Daly City		Miami			Springfield
+Danbury			Milwaukee		St. Louis
+Davenport		Minneapolis		St. Paul
+Davidson County		Miramar			St. Petersburg
+Dayton			Mission Viejo		Stamford
+Daytona Beach		Mobile			Sterling Heights
+Deltona			Modesto			Stockton
+Denton			Monroe			Sunnyvale
+Denver			Monterey		Syracuse
+Des Moines		Montgomery		Tacoma
+Detroit			Moreno Valley		Tallahassee
+Downey			Murfreesboro		Tampa
+Duluth			Murrieta		Temecula
+Durham			Muskegon		Tempe

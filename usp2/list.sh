@@ -1,5 +1,5 @@
 #!/bin/bash
+#list the contents of a directory
 
-list='ls -l'
-
-$list
+var='ls -l'
+$var
