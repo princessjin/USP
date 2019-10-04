@@ -2,18 +2,19 @@
 
 require "/home/george/USP/perl3/util.pl";
 require "/home/george/USP/perl3/math.pl";
+
+run();
+
 my @nums;
 
-main();
-
-sub main{
+sub run{
 	menu();
 	$choice=0;
 	while($choice != -1){
 		$choice = readItem("Command: ");
 		if($choice == 1){
 			@nums = randomArray();
-			show("Random array: ","(@nums)");			
+			show("Random array: ","(@nums)");
 		}elsif($choice == 2){
 			@nums = dynamicArray();
 			show("Dynamic array: ","(@nums)");
@@ -25,17 +26,17 @@ sub main{
 		}elsif($choice == 5){
 			show("Sum = ",sum(@nums));
 		}elsif($choice == 6){
-			show("Average = ",average(@nums));
+			show("Average = ", average(@nums));
 		}elsif($choice == 7){
 			@factorial = factorialArray(@nums);
-			show("Factorial array: ","(@factorial)");
+			show("Factorial array ","(@factorial)");
 		}else{
 			menu();
 			@nums = ();
-		}
-
+		}	
 	}
 }
+
 
 sub menu{
 	print"Operation or -1 to exit: \n";
@@ -46,5 +47,5 @@ sub menu{
 	print"5- calculate Sum \n";
 	print"6- calculate Average \n";
 	print"7- create factorial array \n";
-	print"Default: reset and show menu \n";
+	print"Default: reset array \n";
 }

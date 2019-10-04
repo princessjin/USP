@@ -1,45 +1,60 @@
 #!/bin/perl
 
-#display procedure
+#define a subroutine that displays 2 items
 sub show{
 	print $_[0],$_[1],"\n";
 }
 
-#read function
+#define a read method
 sub readItem{
 	print $_[0];
-	$item = <STDIN>;
+	$item=<STDIN>;
 	chomp($item);
 	return $item;
 }
 
-#function that returns a random array [0-20] of a user input size
+#define a method that creates a random array [0-10] of size given by user
 sub randomArray{
-	$size = readItem("Array size = ");
+	$size = readItem("Size = ");
 	my @nums;
-	for($i=0 ; $i < $size ; $i++){
-		push(@nums,int(rand(20)));
+	for($i=0 ; $i<$size ; $i++){
+		push(@nums,int(rand(10)+1));
 	}
 	return @nums;
 }
 
-#function that returns a dynamic array of user input size
+#define a method that creates a dynamic array of size given by user
 sub dynamicArray{
-	$size = readItem("Array size = ");
+	$size = readItem("Size = ");
 	my @nums;
-	for($i=0 ; $i < $size ; $i++){
-		$e=readItem("Value = ");
+	for($i=0 ; $i<$size ; $i++){
+		$e= readItem("Value = ");
 		push(@nums,$e);
-	}	
+	}
 	return @nums;
 }
 
-#function that returns a sorted array
+#define a method that returns a sorted array
 sub sorted{
 	return sort{$a<=>$b}@_;
 }
 
 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
